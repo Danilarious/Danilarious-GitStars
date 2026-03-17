@@ -1,0 +1,102 @@
+# {{title}}
+
+{{description}}
+
+{{#if generatedAt}}
+Last updated: `{{generatedAt}}`
+{{/if}}
+
+## About This Project
+
+This repository generates a curated, searchable catalog from a GitHub account's starred repositories. It combines a data
+pipeline, deterministic categorization rules, chunked JSON exports, and a static frontend so the result can be published
+on GitHub Pages without a server runtime.
+
+The project is useful if you want to:
+
+- publish your starred repositories as a clean public directory,
+- keep repository metadata and categories in version control,
+- customize how projects are grouped with your own rules and overrides,
+- reuse the structure for your own profile by forking or cloning the repository.
+
+## Overview
+
+- Total starred repositories: **{{summary.total}}**
+- Categories in use: **{{summary.categoryCount}}**
+- Newly detected this run: **{{changes.added}}**
+- Removed this run: **{{changes.removed}}**
+- Metadata/category updates: **{{changes.updated}}**
+
+## How It Works
+
+The generator fetches starred repositories for `@{{username}}`, classifies each repository with stable rule-based
+categories, writes the results into chunked files under `dist/data/`, and rebuilds this README together with the static site
+assets. The frontend then reads the generated catalog and chunk files to provide filtering, search, sorting, and
+progressive loading in the browser.
+
+## Use This Project
+
+You can use this project in three common ways:
+
+### 1. Fork It
+
+Fork the repository if you want to keep the existing setup and adapt it for your own GitHub account. After forking,
+update the repository secrets or environment variables for your own username and token, then run the generator on your
+fork.
+
+### 2. Clone It
+
+Clone the repository if you want full local control or if you plan to customize the data model, categorization rules,
+UI, or deployment flow.
+
+```bash
+git clone <your-fork-or-copy-url>
+cd my-stars
+bun install
+```
+
+You can then generate the data with either environment variables or CLI arguments:
+
+```bash
+bun run src/index.ts --username <your-github-handle>
+```
+
+Optional environment variables:
+
+- `GITHUB_USERNAME` or `STARS_USERNAME`: the GitHub account whose stars will be indexed.
+- `GITHUB_TOKEN` or `GH_TOKEN`: recommended to avoid low unauthenticated API limits.
+- `README_TITLE`: custom README title.
+- `README_DESCRIPTION`: custom README description.
+
+If you want to preview the generated site locally after a run, serve `dist/` with any static file server.
+
+### 3. Contribute To It
+
+If you want to improve the project itself, contributions are welcome. Useful contribution areas include:
+
+- better category definitions and override rules,
+- UI and accessibility improvements for the static site,
+- GitHub API efficiency and sync logic,
+- documentation, automation, and deployment workflows.
+
+## Contributing
+
+If you plan to contribute, use a normal fork-and-pull-request workflow:
+
+1. Fork the repository.
+2. Create a feature branch for your change.
+3. Run the generator or relevant checks locally.
+4. Open a pull request with a clear explanation of the change and its impact.
+
+Small fixes are fine, but detailed pull requests are especially helpful when they include rationale for taxonomy
+changes, UX adjustments, or sync behavior updates.
+
+## Recent Stars
+
+{{#if recent.length}}
+{{#each recent}}
+- [{{fullName}}]({{url}}){{#if description}} - {{description}}{{/if}}
+{{/each}}
+{{else}}
+No recent stars available yet.
+{{/if}}

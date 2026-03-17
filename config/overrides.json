@@ -1,0 +1,5 @@
+{
+	"$schema": "./overrides.schema.json",
+	"exclude": [],
+	"categories": []
+}
