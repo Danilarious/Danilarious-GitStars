@@ -70,6 +70,8 @@ const README_GENERIC_KEYWORDS = new Set([
 	"template",
 ]);
 
+const MIN_NON_DEFAULT_CATEGORY_SCORE = 4.25;
+
 function categoryMap(config: CategoryConfig): Map<string, CategoryDefinition> {
 	return new Map(config.categories.map((category) => [category.id, category]));
 }
@@ -229,17 +231,17 @@ function matchKeyword(
 	const reasons: string[] = [];
 
 	if (index.topicsExact.has(rawKeyword)) {
-		score += 8 * specificity;
+		score += 9 * specificity;
 		reasons.push(`topic:${keyword}`);
 	} else if (index.topicsNormalized.includes(normalizedKeyword)) {
-		score += 7 * specificity;
+		score += 8 * specificity;
 		reasons.push(`topic:${keyword}`);
 	} else if (
 		index.topicsNormalized.some((topic) =>
 			containsNormalizedPhrase(topic, normalizedKeyword),
 		)
 	) {
-		score += 5.5 * specificity;
+		score += 6.5 * specificity;
 		reasons.push(`topic:${keyword}`);
 	}
 
@@ -256,7 +258,7 @@ function matchKeyword(
 	if (
 		containsNormalizedPhrase(index.normalizedDescription, normalizedKeyword)
 	) {
-		score += 3.5 * specificity;
+		score += 4.25 * specificity;
 		reasons.push(`description:${keyword}`);
 	}
 
@@ -452,6 +454,16 @@ function deterministicClassify(
 	}
 
 	const [winner, winnerEvaluation] = ranked[0];
+	if (
+		winner !== categoryConfig.defaultCategory &&
+		winnerEvaluation.score < MIN_NON_DEFAULT_CATEGORY_SCORE
+	) {
+		return createDefaultClassification(
+			categoryConfig.defaultCategory,
+			`Top score ${roundScore(winnerEvaluation.score)} stayed below the minimum category threshold.`,
+		);
+	}
+
 	const secondScore = ranked[1]?.[1].score ?? 0;
 	const confidence = Math.min(
 		0.98,
