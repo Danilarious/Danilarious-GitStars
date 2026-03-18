@@ -334,6 +334,17 @@ function deterministicClassify(
 		};
 	}
 
+	const hasDescription = Boolean(repo.description?.trim());
+	const hasTopics = repo.topics.some((topic) => Boolean(topic.trim()));
+	if (!hasDescription && !hasTopics) {
+		return {
+			category: categoryConfig.defaultCategory,
+			confidence: 0.2,
+			reason: "Missing description and topics, resolved to default category.",
+			source: "default",
+		};
+	}
+
 	const index = buildSearchIndex(repo);
 	const evaluations = new Map<string, CategoryEvaluation>();
 	const categoriesById = categoryMap(categoryConfig);
