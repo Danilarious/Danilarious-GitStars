@@ -67,7 +67,7 @@
 					"vision-language-model",
 					"vision language model"
 				],
-				"languages": ["Jupyter Notebook", "Python", "TypeScript", "JavaScript"]
+				"languages": ["Jupyter Notebook"]
 			}
 		},
 		{
