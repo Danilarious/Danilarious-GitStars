@@ -1,0 +1,162 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Stars Atlas Categories",
+	"description": "Category taxonomy and rule tuning for deterministic repository classification.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"$schema": {
+			"type": "string",
+			"const": "./categories.schema.json",
+			"description": "Relative path to this schema file so editors can validate config/categories.json.",
+			"examples": ["./categories.schema.json"]
+		},
+		"recentCount": {
+			"type": "integer",
+			"minimum": 1,
+			"description": "How many most-recently starred repositories to surface in the generated outputs."
+		},
+		"defaultCategory": {
+			"$ref": "#/$defs/categoryId"
+		},
+		"categories": {
+			"type": "array",
+			"minItems": 1,
+			"items": {
+				"$ref": "#/$defs/categoryDefinition"
+			}
+		}
+	},
+	"required": ["$schema", "recentCount", "defaultCategory", "categories"],
+	"$defs": {
+		"categoryId": {
+			"type": "string",
+			"enum": [
+				"ai",
+				"editor-tooling",
+				"developer-tools",
+				"browser-extensions",
+				"design-systems",
+				"frontend",
+				"content-cms",
+				"cloud",
+				"backend",
+				"desktop",
+				"media",
+				"devops",
+				"databases",
+				"data",
+				"data-visualization",
+				"dotnet",
+				"mobile",
+				"automation",
+				"security",
+				"design",
+				"libraries",
+				"cli",
+				"learning",
+				"misc"
+			]
+		},
+		"trimmedString": {
+			"type": "string",
+			"minLength": 1,
+			"pattern": ".*\\S.*"
+		},
+		"keywordList": {
+			"type": "array",
+			"items": {
+				"$ref": "#/$defs/trimmedString"
+			},
+			"uniqueItems": true,
+			"default": []
+		},
+		"categoryRuleSet": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"keywords": {
+					"$ref": "#/$defs/keywordList"
+				},
+				"languages": {
+					"$ref": "#/$defs/keywordList"
+				},
+				"strongKeywords": {
+					"$ref": "#/$defs/keywordList"
+				},
+				"singletonStrongKeywords": {
+					"$ref": "#/$defs/keywordList"
+				},
+				"readmeExcludedKeywords": {
+					"$ref": "#/$defs/keywordList"
+				},
+				"preferredFallbackCategories": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/categoryId"
+					},
+					"uniqueItems": true,
+					"default": []
+				},
+				"shapeHints": {
+					"$ref": "#/$defs/keywordList"
+				},
+				"minScore": {
+					"type": "number",
+					"minimum": 0,
+					"default": 4.25
+				},
+				"minStrongKeywordMatches": {
+					"type": "integer",
+					"minimum": 0,
+					"default": 0
+				},
+				"shapeHintMinStrongKeywordMatches": {
+					"type": "integer",
+					"minimum": 0,
+					"default": 0
+				},
+				"allowReadmeOnly": {
+					"type": "boolean",
+					"default": true
+				}
+			},
+			"required": [
+				"keywords",
+				"languages",
+				"strongKeywords",
+				"singletonStrongKeywords",
+				"readmeExcludedKeywords",
+				"preferredFallbackCategories",
+				"shapeHints",
+				"minScore",
+				"minStrongKeywordMatches",
+				"shapeHintMinStrongKeywordMatches",
+				"allowReadmeOnly"
+			]
+		},
+		"categoryDefinition": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"id": {
+					"$ref": "#/$defs/categoryId"
+				},
+				"title": {
+					"$ref": "#/$defs/trimmedString"
+				},
+				"priority": {
+					"type": "integer",
+					"minimum": 0
+				},
+				"description": {
+					"$ref": "#/$defs/trimmedString"
+				},
+				"rules": {
+					"$ref": "#/$defs/categoryRuleSet"
+				}
+			},
+			"required": ["id", "title", "priority", "description", "rules"]
+		}
+	}
+}

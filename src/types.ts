@@ -1,6 +1,15 @@
 export type CategoryRuleSet = {
 	keywords: string[];
 	languages: string[];
+	strongKeywords: string[];
+	singletonStrongKeywords: string[];
+	readmeExcludedKeywords: string[];
+	preferredFallbackCategories: string[];
+	shapeHints: string[];
+	minScore: number;
+	minStrongKeywordMatches: number;
+	shapeHintMinStrongKeywordMatches: number;
+	allowReadmeOnly: boolean;
 };
 
 export type CategoryDefinition = {
@@ -12,6 +21,7 @@ export type CategoryDefinition = {
 };
 
 export type CategoryConfig = {
+	$schema?: string;
 	recentCount: number;
 	defaultCategory: string;
 	categories: CategoryDefinition[];

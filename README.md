@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-19T05:42:56.513Z`
+Last updated: `2026-03-19T16:07:23.716Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **745**
+- Total starred repositories: **746**
 - Categories in use: **24**
-- Newly detected this run: **3**
+- Newly detected this run: **0**
 - Removed this run: **0**
-- Metadata/category updates: **742**
+- Metadata/category updates: **9**
 
 ## How It Works
 
@@ -103,6 +103,7 @@ changes, UX adjustments, or sync behavior updates.
 
 ## Recent Stars
 
+- [dashersw/gea](https://github.com/dashersw/gea)
 - [Megabit/Blazorise](https://github.com/Megabit/Blazorise) - Blazorise is a component library built on top of Blazor with support for CSS frameworks like Bootstrap, Tailwind, Bulma, AntDesign, and Material.
 - [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) - Blazor Component Library based on Material Design principles with an emphasis on ease of use and extensibility
 - [TamerSarioglu/Resume-Architect](https://github.com/TamerSarioglu/Resume-Architect)
@@ -114,4 +115,3 @@ changes, UX adjustments, or sync behavior updates.
 - [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) - GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
 - [nitrojs/nitro](https://github.com/nitrojs/nitro) - Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.
 - [sametcn99/my-stars-atlas](https://github.com/sametcn99/my-stars-atlas) - A generated catalog of starred GitHub repositories, grouped into stable categories.
-- [karpathy/jobs](https://github.com/karpathy/jobs) - A research tool for visually exploring Bureau of Labor Statistics Occupational Outlook Handbook data. This is not a report, a paper, or a serious economic publication — it is a development tool for exploring BLS data visually.

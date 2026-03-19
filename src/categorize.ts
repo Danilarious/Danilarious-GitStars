@@ -37,6 +37,7 @@ type CategoryEvaluation = {
 	score: number;
 	signalCount: number;
 	reasons: string[];
+	matchedKeywords: string[];
 };
 
 type DeterministicClassificationResult = DeterministicClassification & {
@@ -171,8 +172,27 @@ function normalizeRepoUrl(url: string): string {
 	return normalizeRuleValue(url).replace(/\/+$/, "");
 }
 
-function isReadmeKeywordEligible(normalizedKeyword: string): boolean {
-	return !README_GENERIC_KEYWORDS.has(normalizedKeyword);
+function normalizeRuleList(values: string[]): string[] {
+	return values.map((value) => normalizeSearchText(value)).filter(Boolean);
+}
+
+function isReadmeKeywordEligible(
+	category: CategoryDefinition,
+	normalizedKeyword: string,
+): boolean {
+	if (README_GENERIC_KEYWORDS.has(normalizedKeyword)) {
+		return false;
+	}
+
+	if (
+		normalizeRuleList(category.rules.readmeExcludedKeywords).includes(
+			normalizedKeyword,
+		)
+	) {
+		return false;
+	}
+
+	return true;
 }
 
 function buildSearchIndex(repo: StarRecord, readmeText?: string): RepoSearchIndex {
@@ -217,6 +237,7 @@ function buildSearchIndex(repo: StarRecord, readmeText?: string): RepoSearchInde
 
 function matchKeyword(
 	index: RepoSearchIndex,
+	category: CategoryDefinition,
 	keyword: string,
 ): KeywordMatch | null {
 	const rawKeyword = normalizeRuleValue(keyword);
@@ -268,7 +289,7 @@ function matchKeyword(
 	}
 
 	if (
-		isReadmeKeywordEligible(normalizedKeyword) &&
+		isReadmeKeywordEligible(category, normalizedKeyword) &&
 		containsNormalizedPhrase(index.normalizedReadme, normalizedKeyword)
 	) {
 		score += 2.75 * specificity;
@@ -310,14 +331,16 @@ function evaluateCategory(
 ): CategoryEvaluation | null {
 	let score = 0;
 	const reasons = new Set<string>();
+	const matchedKeywords = new Set<string>();
 
 	for (const keyword of category.rules.keywords) {
-		const match = matchKeyword(index, keyword);
+		const match = matchKeyword(index, category, keyword);
 		if (!match) {
 			continue;
 		}
 
 		score += match.score;
+		matchedKeywords.add(normalizeSearchText(keyword));
 		for (const reason of match.reasons) {
 			reasons.add(reason);
 		}
@@ -338,6 +361,174 @@ function evaluateCategory(
 		score: roundScore(score),
 		signalCount: reasons.size,
 		reasons: [...reasons].slice(0, 8),
+		matchedKeywords: [...matchedKeywords],
+	};
+}
+
+function categoryMinimumScore(category: CategoryDefinition): number {
+	return category.rules.minScore || MIN_NON_DEFAULT_CATEGORY_SCORE;
+}
+
+function categoryKeywordSet(values: string[]): Set<string> {
+	return new Set(normalizeRuleList(values));
+}
+
+function countStrongSignals(
+	evaluation: CategoryEvaluation,
+	category: CategoryDefinition,
+): number {
+	const strongKeywords = categoryKeywordSet(category.rules.strongKeywords);
+	return evaluation.matchedKeywords.filter((keyword) => strongKeywords.has(keyword))
+		.length;
+}
+
+function hasSingletonStrongKeyword(
+	evaluation: CategoryEvaluation,
+	category: CategoryDefinition,
+): boolean {
+	const singletonStrongKeywords = categoryKeywordSet(
+		category.rules.singletonStrongKeywords,
+	);
+	return evaluation.matchedKeywords.some((keyword) =>
+		singletonStrongKeywords.has(keyword),
+	);
+}
+
+function hasNonReadmeSignal(evaluation: CategoryEvaluation): boolean {
+	return evaluation.reasons.some((reason) => !reason.startsWith("readme:"));
+}
+
+function matchesShapeHints(
+	index: RepoSearchIndex,
+	category: CategoryDefinition,
+): boolean {
+	const searchableFields = [
+		index.normalizedName,
+		index.normalizedDescription,
+		index.normalizedReadme,
+	];
+
+	return normalizeRuleList(category.rules.shapeHints).some((normalizedHint) => {
+		return searchableFields.some((field) =>
+			containsNormalizedPhrase(field, normalizedHint),
+		);
+	});
+}
+
+function pickPreferredFallback(
+	winnerCategory: CategoryDefinition,
+	categoriesById: Map<string, CategoryDefinition>,
+	ranked: Array<[string, CategoryEvaluation]>,
+	winningScore: number,
+): [string, CategoryEvaluation] | undefined {
+	const preferredFallbackCategories = new Set(
+		winnerCategory.rules.preferredFallbackCategories,
+	);
+
+	for (const [categoryId, evaluation] of ranked.slice(1)) {
+		if (!preferredFallbackCategories.has(categoryId)) {
+			continue;
+		}
+
+		const category = categoriesById.get(categoryId);
+		if (!category) {
+			continue;
+		}
+
+		if (evaluation.score < categoryMinimumScore(category)) {
+			continue;
+		}
+
+		if (evaluation.score + 3 < winningScore) {
+			continue;
+		}
+
+		return [categoryId, evaluation];
+	}
+
+	for (const [categoryId, evaluation] of ranked.slice(1)) {
+		const category = categoriesById.get(categoryId);
+		if (!category) {
+			continue;
+		}
+
+		if (evaluation.score < categoryMinimumScore(category)) {
+			continue;
+		}
+
+		return [categoryId, evaluation];
+	}
+
+	return undefined;
+}
+
+function shouldRejectWinner(
+	repo: StarRecord,
+	index: RepoSearchIndex,
+	category: CategoryDefinition,
+	evaluation: CategoryEvaluation,
+): boolean {
+	const hasDescription = Boolean(repo.description?.trim());
+	const hasTopics = repo.topics.some((topic) => Boolean(topic.trim()));
+	const strongSignalCount = countStrongSignals(evaluation, category);
+	const strongKeywords = category.rules.strongKeywords.length;
+
+	if (evaluation.score < categoryMinimumScore(category)) {
+		return true;
+	}
+
+	if (strongKeywords > 0 && strongSignalCount === 0) {
+		return true;
+	}
+
+	if (
+		category.rules.minStrongKeywordMatches > 0 &&
+		strongSignalCount < category.rules.minStrongKeywordMatches &&
+		!hasSingletonStrongKeyword(evaluation, category)
+	) {
+		return true;
+	}
+
+	if (
+		category.rules.allowReadmeOnly === false &&
+		!hasDescription &&
+		!hasTopics &&
+		!hasNonReadmeSignal(evaluation)
+	) {
+		return true;
+	}
+
+	if (
+		category.rules.shapeHintMinStrongKeywordMatches > 0 &&
+		matchesShapeHints(index, category) &&
+		strongSignalCount < category.rules.shapeHintMinStrongKeywordMatches
+	) {
+		return true;
+	}
+
+	return false;
+}
+
+function buildRuleClassification(
+	category: string,
+	evaluation: CategoryEvaluation,
+	secondScore: number,
+): DeterministicClassificationResult {
+	const confidence = Math.min(
+		0.98,
+		0.28 +
+			Math.min(0.38, evaluation.score / 20) +
+			Math.min(0.16, evaluation.signalCount * 0.035) +
+			Math.min(0.16, Math.max(0, evaluation.score - secondScore) / 12),
+	);
+
+	return {
+		category,
+		confidence: roundScore(confidence),
+		reason: evaluation.reasons.join(", "),
+		source: "rules",
+		score: evaluation.score,
+		signalCount: evaluation.signalCount,
 	};
 }
 
@@ -454,9 +645,13 @@ function deterministicClassify(
 	}
 
 	const [winner, winnerEvaluation] = ranked[0];
+	const winnerCategory = categoriesById.get(winner);
+	if (!winnerCategory) {
+		throw new Error(`Unknown category '${winner}'.`);
+	}
 	if (
 		winner !== categoryConfig.defaultCategory &&
-		winnerEvaluation.score < MIN_NON_DEFAULT_CATEGORY_SCORE
+		winnerEvaluation.score < categoryMinimumScore(winnerCategory)
 	) {
 		return createDefaultClassification(
 			categoryConfig.defaultCategory,
@@ -464,20 +659,34 @@ function deterministicClassify(
 		);
 	}
 
-	const secondScore = ranked[1]?.[1].score ?? 0;
-	const confidence = Math.min(
-		0.98,
-		0.28 +
-			Math.min(0.38, winnerEvaluation.score / 20) +
-			Math.min(0.16, winnerEvaluation.signalCount * 0.035) +
-			Math.min(0.16, Math.max(0, winnerEvaluation.score - secondScore) / 12),
-	);
+	if (shouldRejectWinner(repo, index, winnerCategory, winnerEvaluation)) {
+		const fallback = pickPreferredFallback(
+			winnerCategory,
+			categoriesById,
+			ranked,
+			winnerEvaluation.score,
+		);
+		if (fallback) {
+			const [fallbackCategory, fallbackEvaluation] = fallback;
+			const fallbackSecondScore =
+				ranked.find(([categoryId]) => categoryId !== fallbackCategory)?.[1].score ?? 0;
 
+			return buildRuleClassification(
+				fallbackCategory,
+				fallbackEvaluation,
+				fallbackSecondScore,
+			);
+		}
+
+		return createDefaultClassification(
+			categoryConfig.defaultCategory,
+			`${winnerCategory.title} signals were too generic to keep the winning category.`,
+		);
+	}
+
+	const secondScore = ranked[1]?.[1].score ?? 0;
 	return {
-		category: winner,
-		confidence: roundScore(confidence),
-		reason: winnerEvaluation.reasons.join(", "),
-		source: "rules",
+		...buildRuleClassification(winner, winnerEvaluation, secondScore),
 		score: winnerEvaluation.score,
 		signalCount: winnerEvaluation.signalCount,
 	};

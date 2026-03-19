@@ -1,4 +1,5 @@
 {
+	"$schema": "./categories.schema.json",
 	"recentCount": 12,
 	"defaultCategory": "misc",
 	"categories": [
@@ -9,9 +10,6 @@
 			"description": "LLM apps, agent frameworks, inference stacks, model tooling, prompting workflows, and AI-native products.",
 			"rules": {
 				"keywords": [
-					"ai",
-					"agent",
-					"agents",
 					"ai-agents",
 					"ai-sdk",
 					"agent-sdk",
@@ -20,36 +18,21 @@
 					"rag",
 					"transformer",
 					"transformers",
-					"machine-learning",
-					"deep-learning",
 					"genai",
-					"copilot",
-					"claude",
 					"embedding",
 					"embeddings",
-					"inference",
 					"fine-tuning",
 					"fine tuning",
 					"evaluation",
 					"evals",
-					"prompting",
 					"vector-database",
 					"vector search",
 					"semantic-search",
-					"assistant",
-					"assistants",
-					"gpt",
 					"agent-framework",
 					"agentic-ai",
 					"agentic-workflows",
 					"prompt-engineering",
-					"mcp",
 					"model-context-protocol",
-					"artificial intelligence",
-					"model",
-					"machine learning",
-					"deep learning",
-					"prompt",
 					"chatbot",
 					"generative ai",
 					"multimodal",
@@ -58,16 +41,106 @@
 					"ollama",
 					"langchain",
 					"llamaindex",
-					"computer-vision",
-					"computer vision",
-					"speech-recognition",
-					"speech recognition",
-					"diffusion",
-					"stable-diffusion",
-					"vision-language-model",
-					"vision language model"
+					"model-evaluation",
+					"retrieval-augmented-generation",
+					"retrieval augmented generation",
+					"vector-db",
+					"text-embeddings-inference"
 				],
-				"languages": ["Jupyter Notebook"]
+				"languages": [
+					"Jupyter Notebook"
+				],
+				"strongKeywords": [
+					"ai-agents",
+					"ai-sdk",
+					"agent-sdk",
+					"llm",
+					"llms",
+					"rag",
+					"retrieval augmented generation",
+					"retrieval-augmented-generation",
+					"embedding",
+					"embeddings",
+					"fine tuning",
+					"fine-tuning",
+					"evaluation",
+					"evals",
+					"vector search",
+					"vector-database",
+					"vector-db",
+					"semantic-search",
+					"agent-framework",
+					"agentic-ai",
+					"agentic-workflows",
+					"model-context-protocol",
+					"langchain",
+					"llamaindex",
+					"ollama",
+					"text-embeddings-inference"
+				],
+				"singletonStrongKeywords": [
+					"ai-agents",
+					"ai-sdk",
+					"agent-sdk",
+					"llm",
+					"llms",
+					"rag",
+					"retrieval augmented generation",
+					"retrieval-augmented-generation",
+					"embedding",
+					"embeddings",
+					"vector search",
+					"vector-database",
+					"vector-db",
+					"agent-framework",
+					"agentic-ai",
+					"agentic-workflows",
+					"model-context-protocol",
+					"langchain",
+					"llamaindex",
+					"ollama",
+					"text-embeddings-inference"
+				],
+				"readmeExcludedKeywords": [
+					"openai",
+					"anthropic",
+					"claude",
+					"gpt",
+					"chatbot",
+					"multimodal",
+					"generative ai",
+					"prompt-engineering"
+				],
+				"preferredFallbackCategories": [
+					"developer-tools",
+					"editor-tooling",
+					"learning",
+					"desktop",
+					"media",
+					"data-visualization",
+					"content-cms",
+					"libraries"
+				],
+				"shapeHints": [
+					"awesome",
+					"collection",
+					"collections",
+					"reference",
+					"guide",
+					"format",
+					"spec",
+					"specification",
+					"system prompts",
+					"prompt injection",
+					"prompt leaking",
+					"plugin collection",
+					"plugins",
+					"skills"
+				],
+				"minScore": 6.5,
+				"minStrongKeywordMatches": 2,
+				"shapeHintMinStrongKeywordMatches": 2,
+				"allowReadmeOnly": false
 			}
 		},
 		{
@@ -107,7 +180,55 @@
 					"vscode-theme",
 					"vscode-snippets"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"vscode-extension",
+					"language-server",
+					"lsp",
+					"code-actions",
+					"autocomplete",
+					"syntax-highlighting",
+					"vscode-snippets",
+					"snippet",
+					"snippets",
+					"editor extension",
+					"ide-extension",
+					"language-support"
+				],
+				"singletonStrongKeywords": [
+					"vscode-extension",
+					"language-server",
+					"lsp",
+					"code-actions",
+					"autocomplete",
+					"syntax-highlighting",
+					"vscode-snippets",
+					"snippet",
+					"snippets",
+					"editor extension",
+					"ide-extension",
+					"language-support"
+				],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [
+					"developer-tools",
+					"learning",
+					"content-cms"
+				],
+				"shapeHints": [
+					"documentation",
+					"docs",
+					"guide",
+					"reference",
+					"sample",
+					"samples",
+					"examples",
+					"tutorial"
+				],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 1,
+				"shapeHintMinStrongKeywordMatches": 1,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -117,11 +238,6 @@
 			"description": "Editors, IDE extensions, language servers, linters, generators, and tools that improve day-to-day software development.",
 			"rules": {
 				"keywords": [
-					"vscode",
-					"vscode-extension",
-					"visual-studio-code",
-					"lsp",
-					"language-server",
 					"formatter",
 					"linter",
 					"eslint",
@@ -129,8 +245,6 @@
 					"developer-tools",
 					"devtools",
 					"plugin",
-					"extension",
-					"code-editor",
 					"codemod",
 					"refactoring",
 					"scaffolding",
@@ -140,14 +254,12 @@
 					"codegen",
 					"readme-generator",
 					"json-schema",
-					"visual studio code",
-					"editor",
-					"language server",
-					"snippet",
 					"developer tool",
 					"code generator",
 					"readme generator",
 					"documentation generator",
+					"plugins",
+					"hooks",
 					"debugger",
 					"debugging",
 					"profiler",
@@ -160,7 +272,65 @@
 					"workspace tool",
 					"schema generator"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"formatter",
+					"linter",
+					"codemod",
+					"refactoring",
+					"debugger",
+					"build-tool",
+					"bundler",
+					"test runner",
+					"schema generator",
+					"plugin",
+					"devtools",
+					"codegen",
+					"json-schema",
+					"hooks",
+					"workspace tool",
+					"monorepo"
+				],
+				"singletonStrongKeywords": [
+					"formatter",
+					"linter",
+					"codemod",
+					"refactoring",
+					"debugger",
+					"build-tool",
+					"bundler",
+					"test runner",
+					"schema generator",
+					"plugin",
+					"extension",
+					"devtools",
+					"codegen",
+					"json-schema",
+					"hooks",
+					"workspace tool",
+					"monorepo"
+				],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [
+					"editor-tooling",
+					"learning",
+					"content-cms",
+					"libraries"
+				],
+				"shapeHints": [
+					"documentation",
+					"docs",
+					"guide",
+					"reference",
+					"sample",
+					"samples",
+					"examples",
+					"api"
+				],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 1,
+				"shapeHintMinStrongKeywordMatches": 1,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -197,7 +367,23 @@
 					"chrome add-on",
 					"firefox add-on"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"browser-extension",
+					"webextension",
+					"chrome-extension",
+					"firefox-addon",
+					"manifest-v3",
+					"userscript"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -239,7 +425,23 @@
 					"accessible-components",
 					"accessible components"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"design-system",
+					"component-library",
+					"ui-kit",
+					"headless-ui",
+					"design-tokens",
+					"primitives"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -302,7 +504,59 @@
 					"styled-components",
 					"styled components"
 				],
-				"languages": ["HTML", "CSS", "Vue", "Svelte", "MDX"]
+				"languages": [
+					"HTML",
+					"CSS",
+					"Vue",
+					"Svelte",
+					"MDX"
+				],
+				"strongKeywords": [
+					"react",
+					"nextjs",
+					"vue",
+					"svelte",
+					"angular",
+					"astro",
+					"web-components",
+					"dashboard",
+					"static site",
+					"web app",
+					"website",
+					"landing page",
+					"single-page-app",
+					"spa"
+				],
+				"singletonStrongKeywords": [
+					"react",
+					"nextjs",
+					"vue",
+					"svelte",
+					"angular",
+					"astro",
+					"dashboard",
+					"web app",
+					"single-page-app",
+					"spa"
+				],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [
+					"content-cms",
+					"design-systems",
+					"learning"
+				],
+				"shapeHints": [
+					"markdown",
+					"mdx",
+					"documentation",
+					"docs",
+					"knowledge base",
+					"static site generator"
+				],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 1,
+				"shapeHintMinStrongKeywordMatches": 2,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -346,7 +600,54 @@
 					"publishing",
 					"knowledge base"
 				],
-				"languages": ["MDX", "Markdown"]
+				"languages": [
+					"MDX",
+					"Markdown"
+				],
+				"strongKeywords": [
+					"cms",
+					"headless-cms",
+					"static-site-generator",
+					"documentation-site",
+					"markdown",
+					"mdx",
+					"docusaurus",
+					"vitepress",
+					"nextra",
+					"docs",
+					"documentation",
+					"knowledge base"
+				],
+				"singletonStrongKeywords": [
+					"cms",
+					"headless-cms",
+					"static-site-generator",
+					"documentation-site",
+					"markdown",
+					"mdx",
+					"docusaurus",
+					"vitepress",
+					"nextra",
+					"docs",
+					"documentation",
+					"knowledge base"
+				],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [
+					"frontend",
+					"learning"
+				],
+				"shapeHints": [
+					"starter",
+					"starter template",
+					"boilerplate",
+					"portfolio",
+					"landing page"
+				],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 1,
+				"shapeHintMinStrongKeywordMatches": 2,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -366,13 +667,7 @@
 					"lambda",
 					"supabase",
 					"firebase",
-					"vercel",
 					"cloudflare",
-					"netlify",
-					"render",
-					"railway",
-					"flyio",
-					"fly.io",
 					"neon",
 					"planetscale",
 					"workers",
@@ -397,7 +692,58 @@
 					"app-platform",
 					"app platform"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"cloud-native",
+					"serverless",
+					"supabase",
+					"firebase",
+					"cloudflare",
+					"edge-runtime",
+					"backend as a service",
+					"object-storage",
+					"workers",
+					"edge-functions",
+					"durable-functions",
+					"blob storage",
+					"blob-storage"
+				],
+				"singletonStrongKeywords": [
+					"cloud-native",
+					"serverless",
+					"supabase",
+					"firebase",
+					"cloudflare",
+					"edge-runtime",
+					"backend as a service",
+					"object-storage",
+					"workers",
+					"edge-functions",
+					"durable-functions",
+					"blob storage",
+					"blob-storage"
+				],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [
+					"frontend",
+					"content-cms",
+					"learning",
+					"backend"
+				],
+				"shapeHints": [
+					"starter",
+					"starter template",
+					"template",
+					"boilerplate",
+					"portfolio",
+					"blog",
+					"landing page",
+					"website"
+				],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 1,
+				"shapeHintMinStrongKeywordMatches": 2,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -448,7 +794,26 @@
 					"oauth2",
 					"identity provider"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"api",
+					"rest-api",
+					"graphql",
+					"grpc",
+					"nestjs",
+					"fastapi",
+					"webhook",
+					"websocket",
+					"microservices"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -484,7 +849,26 @@
 					"gtk",
 					"qt"
 				],
-				"languages": ["Objective-C"]
+				"languages": [
+					"Objective-C"
+				],
+				"strongKeywords": [
+					"electron",
+					"tauri",
+					"desktop-application",
+					"desktop app",
+					"system tray",
+					"windows app",
+					"mac app"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -536,7 +920,26 @@
 					"thumbnail",
 					"transcoder"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"pdf",
+					"video-processing",
+					"audio-processing",
+					"image-processing",
+					"ocr",
+					"transcription",
+					"screen recorder",
+					"converter",
+					"subtitle"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -583,7 +986,26 @@
 					"dependabot",
 					"sre"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"docker",
+					"kubernetes",
+					"terraform",
+					"ansible",
+					"github-actions",
+					"gitops",
+					"observability",
+					"self-hosted",
+					"infrastructure as code"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -632,7 +1054,28 @@
 					"vector-database",
 					"vector database"
 				],
-				"languages": ["SQL"]
+				"languages": [
+					"SQL"
+				],
+				"strongKeywords": [
+					"postgresql",
+					"mysql",
+					"sqlite",
+					"redis",
+					"mongodb",
+					"orm",
+					"pgvector",
+					"vector-database",
+					"time-series-database"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -677,7 +1120,29 @@
 					"metrics",
 					"reporting"
 				],
-				"languages": ["SQL", "Jupyter Notebook"]
+				"languages": [
+					"SQL",
+					"Jupyter Notebook"
+				],
+				"strongKeywords": [
+					"analytics",
+					"etl",
+					"jupyter",
+					"notebook",
+					"data-science",
+					"business-intelligence",
+					"pipeline",
+					"metrics",
+					"reporting"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -714,7 +1179,24 @@
 					"dashboard",
 					"dashboarding"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"charting",
+					"data-visualization",
+					"diagramming",
+					"mermaid",
+					"plotly",
+					"dashboarding",
+					"graphing"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -729,7 +1211,6 @@
 					"aspnet",
 					"aspnet-core",
 					"asp.net-core",
-					"aspnet-core",
 					"blazor",
 					"blazor-webassembly",
 					"blazor webassembly",
@@ -754,7 +1235,28 @@
 					"nuget package",
 					"avalonia"
 				],
-				"languages": ["C#"]
+				"languages": [
+					"C#"
+				],
+				"strongKeywords": [
+					"dotnet",
+					"csharp",
+					"aspnet-core",
+					"blazor",
+					"maui",
+					"signalr",
+					"nuget",
+					"entity-framework",
+					"avalonia"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -789,7 +1291,30 @@
 					"react native",
 					"jetpack compose"
 				],
-				"languages": ["Swift", "Kotlin", "Dart"]
+				"languages": [
+					"Swift",
+					"Kotlin",
+					"Dart"
+				],
+				"strongKeywords": [
+					"android",
+					"ios",
+					"react-native",
+					"flutter",
+					"swiftui",
+					"jetpack-compose",
+					"mobile app",
+					"android app",
+					"ios app"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -829,7 +1354,29 @@
 					"workflow engine",
 					"robot"
 				],
-				"languages": ["AutoHotkey"]
+				"languages": [
+					"AutoHotkey"
+				],
+				"strongKeywords": [
+					"automation",
+					"workflow-automation",
+					"bot",
+					"crawler",
+					"scraper",
+					"playwright",
+					"puppeteer",
+					"rpa",
+					"scheduler",
+					"workflow-engine"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -871,7 +1418,27 @@
 					"exploit",
 					"threat"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"security",
+					"webauthn",
+					"passkey",
+					"jwt",
+					"pentest",
+					"vulnerability",
+					"cryptography",
+					"privacy",
+					"osint",
+					"exploit"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -910,7 +1477,26 @@
 					"template",
 					"animation"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"figma",
+					"icons",
+					"typography",
+					"theme",
+					"illustration",
+					"motion",
+					"palette",
+					"presentation",
+					"animation"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -941,7 +1527,31 @@
 					"package-manager",
 					"package manager"
 				],
-				"languages": ["Rust", "Go", "C", "C++"]
+				"languages": [
+					"Rust",
+					"Go",
+					"C",
+					"C++"
+				],
+				"strongKeywords": [
+					"library",
+					"sdk",
+					"framework",
+					"parser",
+					"runtime",
+					"compiler",
+					"middleware",
+					"api client",
+					"package manager"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -973,7 +1583,29 @@
 					"shell tool",
 					"dotfile manager"
 				],
-				"languages": ["Shell", "PowerShell", "Batchfile"]
+				"languages": [
+					"Shell",
+					"PowerShell",
+					"Batchfile"
+				],
+				"strongKeywords": [
+					"cli",
+					"terminal",
+					"shell",
+					"terminal-ui",
+					"command-line",
+					"tui",
+					"console",
+					"terminal emulator"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -994,6 +1626,8 @@
 					"recipes",
 					"demo",
 					"sample",
+					"collection",
+					"collections",
 					"workshop",
 					"roadmap",
 					"boilerplate",
@@ -1002,6 +1636,8 @@
 					"documentation",
 					"guide",
 					"reference",
+					"format",
+					"spec",
 					"cheat sheet",
 					"knowledge base",
 					"for beginners",
@@ -1014,7 +1650,28 @@
 					"how-to",
 					"how to"
 				],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [
+					"awesome",
+					"tutorial",
+					"course",
+					"cookbook",
+					"sample",
+					"collection",
+					"roadmap",
+					"examples",
+					"reference",
+					"spec",
+					"walkthrough"
+				],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		},
 		{
@@ -1024,7 +1681,16 @@
 			"description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied.",
 			"rules": {
 				"keywords": [],
-				"languages": []
+				"languages": [],
+				"strongKeywords": [],
+				"singletonStrongKeywords": [],
+				"readmeExcludedKeywords": [],
+				"preferredFallbackCategories": [],
+				"shapeHints": [],
+				"minScore": 4.25,
+				"minStrongKeywordMatches": 0,
+				"shapeHintMinStrongKeywordMatches": 0,
+				"allowReadmeOnly": true
 			}
 		}
 	]
