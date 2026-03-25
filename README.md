@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-24T15:43:24.020Z`
+Last updated: `2026-03-25T05:43:27.829Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **750**
+- Total starred repositories: **757**
 - Categories in use: **24**
-- Newly detected this run: **1**
+- Newly detected this run: **7**
 - Removed this run: **0**
-- Metadata/category updates: **4**
+- Metadata/category updates: **3**
 
 ## How It Works
 
@@ -143,15 +143,15 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [badursun/terlik.js](https://github.com/badursun/terlik.js) - Ultra-fast multi-language profanity filter, designed Turkish-first and extensible to any language. Catches leet speak, agglutination & evasion patterns. Zero deps, TypeScript, 35 KB.
+    - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
+    - [directus/directus](https://github.com/directus/directus) - The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
+    - [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
+    - [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell for every system!
+    - [uwaserver/uwas](https://github.com/uwaserver/uwas) - Unified Web Application Server — Apache+Nginx+Varnish+Caddy in a single Go binary. Auto HTTPS, built-in caching, PHP/FastCGI, reverse proxy, load balancing, WAF, web dashboard, and MCP server.
+    - [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) - The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
     - [nestjs/nestjs.com](https://github.com/nestjs/nestjs.com) - The official website https://nestjs.com 🏆
     - [k-eren-k/SBViewer](https://github.com/k-eren-k/SBViewer) - A high-performance, minimalist PDF viewer for smart boards.
     - [greensock/react](https://github.com/greensock/react) - Tools for using GSAP in React, like useGSAP() which is a drop-in replacement for useLayoutEffect()/useEffect()
     - [greensock/gsap-skills](https://github.com/greensock/gsap-skills) - Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.
     - [dashersw/gea](https://github.com/dashersw/gea)
-    - [Megabit/Blazorise](https://github.com/Megabit/Blazorise) - Blazorise is a component library built on top of Blazor with support for CSS frameworks like Bootstrap, Tailwind, Bulma, AntDesign, and Material.
-    - [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) - Blazor Component Library based on Material Design principles with an emphasis on ease of use and extensibility
-    - [TamerSarioglu/Resume-Architect](https://github.com/TamerSarioglu/Resume-Architect)
-    - [coollabsio/serverlesshorrors.com](https://github.com/coollabsio/serverlesshorrors.com)
-    - [techwithanirudh/coolify-tweaks](https://github.com/techwithanirudh/coolify-tweaks) - A userstyle that enhances Coolify's UI by applying opinionated tweaks, spacing, colors, and layout fixes, to make the UI more polished and user-friendly.
-    - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) - Open Source Alternative to Vercel, Netlify and Heroku.
-    - [Dokploy/mcp](https://github.com/Dokploy/mcp)
