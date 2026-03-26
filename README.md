@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-26T07:01:16.752Z`
+Last updated: `2026-03-26T07:39:09.786Z`
 
 ## About This Project
 
@@ -19,10 +19,10 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **9**
-- Categories in use: **5**
-- Newly detected this run: **8**
-- Removed this run: **759**
+- Total starred repositories: **25**
+- Categories in use: **10**
+- Newly detected this run: **16**
+- Removed this run: **0**
 - Metadata/category updates: **0**
 
 ## How It Works
@@ -143,12 +143,15 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
-    - [denho/faved](https://github.com/denho/faved) - Free open-source bookmark manager with customisable nested tags. Super fast and lightweight. All data is stored locally.
-    - [pbakaus/impeccable](https://github.com/pbakaus/impeccable) - The design language that makes your AI harness better at design.
-    - [yazinsai/OpenOats](https://github.com/yazinsai/OpenOats) - A meeting note-taker that talks back.
-    - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Awesome lists about all kinds of interesting topics
-    - [machinae/awesome-claws](https://github.com/machinae/awesome-claws) - A curated list of awesome AI agents inspired by OpenClaw
-    - [TinyAGI/fractals](https://github.com/TinyAGI/fractals) - Fractals is a recursive task orchestrator for agent swarm
-    - [kgolid/chromotome](https://github.com/kgolid/chromotome) - A collection of color palettes saved for personal use.
-    - [openai/symphony](https://github.com/openai/symphony) - Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
-    - [paperclipai/paperclip](https://github.com/paperclipai/paperclip) - Open-source orchestration for zero-human companies
+    - [louislva/claude-peers-mcp](https://github.com/louislva/claude-peers-mcp) - Allow all your Claude Codes to message each other ad-hoc!
+    - [AlbertBaubleDeem/joplin-plugin-google-docs](https://github.com/AlbertBaubleDeem/joplin-plugin-google-docs) - plugin to sync Joplin notes with Google Docs natively
+    - [HorseSword/joplin-plugin-notellm](https://github.com/HorseSword/joplin-plugin-notellm) - NoteLLM is an AI plugin for Joplin. It's completely open-source and does not collect any logs or personal information.
+    - [cqroot/joplin-outline](https://github.com/cqroot/joplin-outline) - A markdown outline (TOC) sidebar plugin for Joplin.
+    - [hegerdes/joplin-plugin-remote-note-pull](https://github.com/hegerdes/joplin-plugin-remote-note-pull) - This Plugin can create a new Note from any Website and watches the site for changes.
+    - [hieuthi/joplin-plugin-markdown-table-colorize](https://github.com/hieuthi/joplin-plugin-markdown-table-colorize) - Add colors to markdown table syntax to help distinguish different columns
+    - [Sync-in/server](https://github.com/Sync-in/server) - Sync-in server · Secure, open-source platform for file storage, sharing, collaboration, and syncing.
+    - [iflytek/skillhub](https://github.com/iflytek/skillhub) - Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy   on-premise with Docker or Kubernetes.
+    - [crabtalk/crabtalk](https://github.com/crabtalk/crabtalk) - Agents without the bloat
+    - [kenforthewin/atomic](https://github.com/kenforthewin/atomic) - Self-hosted, semantically-connected personal knowledge base
+    - [foldergram/foldergram](https://github.com/foldergram/foldergram) - Self-hosted folder-based Instagram-style photo and video gallery app.
+    - [mshumer/unslop](https://github.com/mshumer/unslop)
