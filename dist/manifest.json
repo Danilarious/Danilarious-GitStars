@@ -1,5 +1,5 @@
 {
-	"name": "My Stars Atlas - A searchable, installable catalog of starred GitHub repositories with progressive chunk loading.",
+	"name": "Danilarious Star Atlas - A searchable, installable catalog of starred GitHub repositories with progressive chunk loading.",
 	"short_name": "Stars Atlas",
 	"description": "A searchable, installable catalog of starred GitHub repositories with progressive chunk loading.",
 	"start_url": "./",
@@ -10,12 +10,12 @@
 	"lang": "en",
 	"icons": [
 		{
-			"src": "https://github.com/sametcn99.png?size=192",
+			"src": "https://github.com/Danilarious.png?size=192",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "https://github.com/sametcn99.png?size=512",
+			"src": "https://github.com/Danilarious.png?size=512",
 			"sizes": "512x512",
 			"type": "image/png"
 		}

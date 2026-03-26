@@ -1,8 +1,8 @@
-# My Stars
+# Danilarious Star Atlas
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-26T05:50:28.462Z`
+Last updated: `2026-03-26T07:01:16.752Z`
 
 ## About This Project
 
@@ -19,15 +19,15 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **760**
-- Categories in use: **24**
-- Newly detected this run: **3**
-- Removed this run: **0**
+- Total starred repositories: **9**
+- Categories in use: **5**
+- Newly detected this run: **8**
+- Removed this run: **759**
 - Metadata/category updates: **0**
 
 ## How It Works
 
-The generator fetches starred repositories for `@sametcn99`, classifies each repository with stable rule-based
+The generator fetches starred repositories for `@Danilarious`, classifies each repository with stable rule-based
 categories, writes the results into chunked files under `dist/data/`, and rebuilds this README together with the static
 site
 assets. The frontend then reads the generated catalog and chunk files to provide filtering, search, sorting, and
@@ -143,15 +143,12 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
-    - [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) - Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.
-    - [plantuml/plantuml](https://github.com/plantuml/plantuml) - Generate diagrams from textual description
-    - [sametcn99/gh-block-spam-accounts](https://github.com/sametcn99/gh-block-spam-accounts) - A browser-only React application that helps you detect suspicious GitHub accounts in your followers/following graph, review detection reasons, and block or unblock accounts in a controlled queue.
-    - [badursun/terlik.js](https://github.com/badursun/terlik.js) - Ultra-fast multi-language profanity filter, designed Turkish-first and extensible to any language. Catches leet speak, agglutination & evasion patterns. Zero deps, TypeScript, 35 KB.
-    - [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
-    - [directus/directus](https://github.com/directus/directus) - The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
-    - [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
-    - [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) - PowerShell for every system!
-    - [uwaserver/uwas](https://github.com/uwaserver/uwas) - Unified Web Application Server — Apache+Nginx+Varnish+Caddy in a single Go binary. Auto HTTPS, built-in caching, PHP/FastCGI, reverse proxy, load balancing, WAF, web dashboard, and MCP server.
-    - [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) - The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
-    - [nestjs/nestjs.com](https://github.com/nestjs/nestjs.com) - The official website https://nestjs.com 🏆
-    - [k-eren-k/SBViewer](https://github.com/k-eren-k/SBViewer) - A high-performance, minimalist PDF viewer for smart boards.
+    - [denho/faved](https://github.com/denho/faved) - Free open-source bookmark manager with customisable nested tags. Super fast and lightweight. All data is stored locally.
+    - [pbakaus/impeccable](https://github.com/pbakaus/impeccable) - The design language that makes your AI harness better at design.
+    - [yazinsai/OpenOats](https://github.com/yazinsai/OpenOats) - A meeting note-taker that talks back.
+    - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Awesome lists about all kinds of interesting topics
+    - [machinae/awesome-claws](https://github.com/machinae/awesome-claws) - A curated list of awesome AI agents inspired by OpenClaw
+    - [TinyAGI/fractals](https://github.com/TinyAGI/fractals) - Fractals is a recursive task orchestrator for agent swarm
+    - [kgolid/chromotome](https://github.com/kgolid/chromotome) - A collection of color palettes saved for personal use.
+    - [openai/symphony](https://github.com/openai/symphony) - Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
+    - [paperclipai/paperclip](https://github.com/paperclipai/paperclip) - Open-source orchestration for zero-human companies
