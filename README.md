@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-26T07:39:09.786Z`
+Last updated: `2026-03-27T06:19:42.445Z`
 
 ## About This Project
 
@@ -19,9 +19,9 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **25**
-- Categories in use: **10**
-- Newly detected this run: **16**
+- Total starred repositories: **29**
+- Categories in use: **11**
+- Newly detected this run: **4**
 - Removed this run: **0**
 - Metadata/category updates: **0**
 
@@ -143,6 +143,10 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [neo4j-labs/ai-governor](https://github.com/neo4j-labs/ai-governor) - Quality gates for AI agents. Guards that don't get tired.
+    - [viftode4/trustchain](https://github.com/viftode4/trustchain) - TrustChain - decentralized trust for AI agents. Rust core, QUIC P2P, transparent proxy, MCP server, dashboard
+    - [saltbo/agent-kanban](https://github.com/saltbo/agent-kanban) - An agent-first task board, Mission control for your AI workforce.
+    - [daltlc/zephyr-framework](https://github.com/daltlc/zephyr-framework) - Zero-JS interactive UI framework using Web Components, CSS :has(), View Transitions API, and container queries
     - [louislva/claude-peers-mcp](https://github.com/louislva/claude-peers-mcp) - Allow all your Claude Codes to message each other ad-hoc!
     - [AlbertBaubleDeem/joplin-plugin-google-docs](https://github.com/AlbertBaubleDeem/joplin-plugin-google-docs) - plugin to sync Joplin notes with Google Docs natively
     - [HorseSword/joplin-plugin-notellm](https://github.com/HorseSword/joplin-plugin-notellm) - NoteLLM is an AI plugin for Joplin. It's completely open-source and does not collect any logs or personal information.
@@ -151,7 +155,3 @@ git clone <your-fork-or-copy-url>
     - [hieuthi/joplin-plugin-markdown-table-colorize](https://github.com/hieuthi/joplin-plugin-markdown-table-colorize) - Add colors to markdown table syntax to help distinguish different columns
     - [Sync-in/server](https://github.com/Sync-in/server) - Sync-in server · Secure, open-source platform for file storage, sharing, collaboration, and syncing.
     - [iflytek/skillhub](https://github.com/iflytek/skillhub) - Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy   on-premise with Docker or Kubernetes.
-    - [crabtalk/crabtalk](https://github.com/crabtalk/crabtalk) - Agents without the bloat
-    - [kenforthewin/atomic](https://github.com/kenforthewin/atomic) - Self-hosted, semantically-connected personal knowledge base
-    - [foldergram/foldergram](https://github.com/foldergram/foldergram) - Self-hosted folder-based Instagram-style photo and video gallery app.
-    - [mshumer/unslop](https://github.com/mshumer/unslop)
