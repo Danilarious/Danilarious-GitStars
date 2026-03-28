@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-03-27T06:19:42.445Z",
+	"generatedAt": "2026-03-28T06:11:31.371Z",
 	"chunkIndex": 1,
 	"chunkCount": 1,
 	"items": [
@@ -574,7 +574,7 @@
 			"category": "misc",
 			"categoryTitle": "Misc",
 			"classificationConfidence": 0.2,
-			"classificationReason": "Top score 1.51 stayed below the minimum category threshold.",
+			"classificationReason": "No deterministic signals matched.",
 			"classificationSource": "default",
 			"classificationReadmeUsed": true
 		},
