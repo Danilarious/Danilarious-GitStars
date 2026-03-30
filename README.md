@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-29T06:18:01.153Z`
+Last updated: `2026-03-30T07:01:58.829Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **31**
-- Categories in use: **11**
-- Newly detected this run: **2**
+- Total starred repositories: **32**
+- Categories in use: **12**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **2**
+- Metadata/category updates: **0**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) - Turn Claude Code into a full game dev studio — 48 AI agents, 36 workflow skills, and a complete coordination system mirroring real studio hierarchy.
     - [sametcn99/my-stars-atlas](https://github.com/sametcn99/my-stars-atlas) - A generated catalog of starred GitHub repositories, grouped into stable categories.
     - [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) - CLI-Anything: Making ALL Software Agent-Native
     - [neo4j-labs/ai-governor](https://github.com/neo4j-labs/ai-governor) - Quality gates for AI agents. Guards that don't get tired.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [HorseSword/joplin-plugin-notellm](https://github.com/HorseSword/joplin-plugin-notellm) - NoteLLM is an AI plugin for Joplin. It's completely open-source and does not collect any logs or personal information.
     - [cqroot/joplin-outline](https://github.com/cqroot/joplin-outline) - A markdown outline (TOC) sidebar plugin for Joplin.
     - [hegerdes/joplin-plugin-remote-note-pull](https://github.com/hegerdes/joplin-plugin-remote-note-pull) - This Plugin can create a new Note from any Website and watches the site for changes.
-    - [hieuthi/joplin-plugin-markdown-table-colorize](https://github.com/hieuthi/joplin-plugin-markdown-table-colorize) - Add colors to markdown table syntax to help distinguish different columns
