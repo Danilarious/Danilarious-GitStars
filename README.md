@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-30T07:01:58.829Z`
+Last updated: `2026-03-31T06:43:40.071Z`
 
 ## About This Project
 
@@ -19,9 +19,9 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **32**
+- Total starred repositories: **36**
 - Categories in use: **12**
-- Newly detected this run: **1**
+- Newly detected this run: **4**
 - Removed this run: **0**
 - Metadata/category updates: **0**
 
@@ -143,6 +143,10 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
+    - [simstudioai/sim](https://github.com/simstudioai/sim) - Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.
+    - [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
+    - [clawrun-sh/clawrun](https://github.com/clawrun-sh/clawrun) - Deploy and manage AI agents in seconds.
     - [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) - Turn Claude Code into a full game dev studio — 48 AI agents, 36 workflow skills, and a complete coordination system mirroring real studio hierarchy.
     - [sametcn99/my-stars-atlas](https://github.com/sametcn99/my-stars-atlas) - A generated catalog of starred GitHub repositories, grouped into stable categories.
     - [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) - CLI-Anything: Making ALL Software Agent-Native
@@ -151,7 +155,3 @@ git clone <your-fork-or-copy-url>
     - [saltbo/agent-kanban](https://github.com/saltbo/agent-kanban) - An agent-first task board, Mission control for your AI workforce.
     - [daltlc/zephyr-framework](https://github.com/daltlc/zephyr-framework) - Zero-JS interactive UI framework using Web Components, CSS :has(), View Transitions API, and container queries
     - [louislva/claude-peers-mcp](https://github.com/louislva/claude-peers-mcp) - Allow all your Claude Codes to message each other ad-hoc!
-    - [AlbertBaubleDeem/joplin-plugin-google-docs](https://github.com/AlbertBaubleDeem/joplin-plugin-google-docs) - plugin to sync Joplin notes with Google Docs natively
-    - [HorseSword/joplin-plugin-notellm](https://github.com/HorseSword/joplin-plugin-notellm) - NoteLLM is an AI plugin for Joplin. It's completely open-source and does not collect any logs or personal information.
-    - [cqroot/joplin-outline](https://github.com/cqroot/joplin-outline) - A markdown outline (TOC) sidebar plugin for Joplin.
-    - [hegerdes/joplin-plugin-remote-note-pull](https://github.com/hegerdes/joplin-plugin-remote-note-pull) - This Plugin can create a new Note from any Website and watches the site for changes.
