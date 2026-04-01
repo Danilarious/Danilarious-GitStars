@@ -3,8 +3,8 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-03-31T06:43:40.071Z",
-	"total": 36,
+	"generatedAt": "2026-04-01T06:55:05.514Z",
+	"total": 39,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 1,
@@ -28,7 +28,7 @@
 			"title": "Frontend & UI",
 			"description": "User interfaces, component systems, static sites, dashboards, design-system implementations, and browser-first applications.",
 			"priority": 30,
-			"count": 1
+			"count": 2
 		},
 		{
 			"id": "content-cms",
@@ -66,6 +66,13 @@
 			"count": 1
 		},
 		{
+			"id": "security",
+			"title": "Security & Privacy",
+			"description": "Authentication, vulnerabilities, privacy-focused tooling, cryptography, offensive research, and defensive security workflows.",
+			"priority": 110,
+			"count": 1
+		},
+		{
 			"id": "design",
 			"title": "Design & Themes",
 			"description": "Design assets, theme packs, iconography, typography, motion systems, and visual exploration or presentation tools.",
@@ -84,7 +91,7 @@
 			"title": "Learning & Reference",
 			"description": "Tutorials, example projects, awesome-lists, notes, roadmaps, boilerplates, and repositories intended primarily for learning or reference.",
 			"priority": 150,
-			"count": 5
+			"count": 6
 		},
 		{
 			"id": "misc",

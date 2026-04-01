@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-03-31T06:43:40.071Z`
+Last updated: `2026-04-01T06:55:05.514Z`
 
 ## About This Project
 
@@ -19,9 +19,9 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **36**
-- Categories in use: **12**
-- Newly detected this run: **4**
+- Total starred repositories: **39**
+- Categories in use: **13**
+- Newly detected this run: **3**
 - Removed this run: **0**
 - Metadata/category updates: **0**
 
@@ -143,6 +143,9 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks
+    - [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) - A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
+    - [agent-sandbox/agent-sandbox](https://github.com/agent-sandbox/agent-sandbox) - Agent Sandbox is an E2B compatible, enterprise-grade ai-first, cloud-native runtime environment for AI Agents. Allows Agents to securely run untrusted LLM-generated Code, Browser use, Computer use, and Shell commands etc. with stateful, long-running, multi-session and multi-tenant.
     - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
     - [simstudioai/sim](https://github.com/simstudioai/sim) - Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.
     - [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
@@ -152,6 +155,3 @@ git clone <your-fork-or-copy-url>
     - [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) - CLI-Anything: Making ALL Software Agent-Native
     - [neo4j-labs/ai-governor](https://github.com/neo4j-labs/ai-governor) - Quality gates for AI agents. Guards that don't get tired.
     - [viftode4/trustchain](https://github.com/viftode4/trustchain) - TrustChain - decentralized trust for AI agents. Rust core, QUIC P2P, transparent proxy, MCP server, dashboard
-    - [saltbo/agent-kanban](https://github.com/saltbo/agent-kanban) - An agent-first task board, Mission control for your AI workforce.
-    - [daltlc/zephyr-framework](https://github.com/daltlc/zephyr-framework) - Zero-JS interactive UI framework using Web Components, CSS :has(), View Transitions API, and container queries
-    - [louislva/claude-peers-mcp](https://github.com/louislva/claude-peers-mcp) - Allow all your Claude Codes to message each other ad-hoc!
