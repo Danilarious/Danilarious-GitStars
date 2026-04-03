@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-02T06:19:02.865Z`
+Last updated: `2026-04-03T06:18:50.967Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **43**
-- Categories in use: **13**
-- Newly detected this run: **4**
+- Total starred repositories: **44**
+- Categories in use: **14**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **1**
+- Metadata/category updates: **2**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [AshBuk/speak-to-ai](https://github.com/AshBuk/speak-to-ai) - Speak to AI • Native Linux Speech-to-Text (STT) • Offline, Privacy-Focused
     - [ARUNAGIRINATHAN-K/awesome-ai-agents](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents) - Awesome AI Agents for 2026
     - [caramaschiHG/awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026) - 🤖 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources · 20+ categories · Updated monthly.
     - [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [simstudioai/sim](https://github.com/simstudioai/sim) - Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.
     - [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
     - [clawrun-sh/clawrun](https://github.com/clawrun-sh/clawrun) - Deploy and manage AI agents in seconds.
-    - [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) - Turn Claude Code into a full game dev studio — 48 AI agents, 36 workflow skills, and a complete coordination system mirroring real studio hierarchy.
