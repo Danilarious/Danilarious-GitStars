@@ -13,16 +13,17 @@
   },
   "site": {
     "title": "Danilarious Star Atlas",
-    "heroDescription": "Explore starred repositories with progressive chunk loading, category-first browsing, debounced search, and a tailored dark interface.",
-    "profileLinkLabel": "GitHub Profile",
+    "heroTitle": "Star Atlas",
+    "heroDescription": "Everything I've starred — organized, searchable, and browsable by category. Built on progressive chunk loading so it stays fast even as the list grows.",
+    "profileLinkLabel": "GitHub Profile ↗",
     "seo": {
-      "description": "Browse starred GitHub repositories with progressive loading, category sections, search, filters, and sorting.",
-      "ogDescription": "A searchable, installable catalog of starred repositories with progressive chunk loading and category-first browsing.",
-      "twitterDescription": "Explore starred repositories by category, language, popularity, and recency without loading the whole dataset upfront."
+      "description": "A searchable, category-first catalog of starred GitHub repositories — built by Danilarious, powered by progressive chunk loading.",
+      "ogDescription": "Browse starred repositories by category, language, and recency. Built by Danilarious with progressive chunk loading and a clean dark interface.",
+      "twitterDescription": "Danilarious Star Atlas — searchable, filtered, sorted. Everything starred, nothing hidden."
     },
     "manifest": {
-      "shortName": "Stars Atlas",
-      "description": "A searchable, installable catalog of starred GitHub repositories with progressive chunk loading."
+      "shortName": "Star Atlas",
+      "description": "A searchable catalog of starred GitHub repositories with category-first browsing and progressive chunk loading."
     }
   }
 }

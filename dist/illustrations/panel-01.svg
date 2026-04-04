@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565.21 927.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fd8a57;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke: #0c0e10;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #fcf78f;
+      }
+
+      .cls-3 {
+        fill: #509622;
+      }
+
+      .cls-4 {
+        fill: #e4e6e7;
+      }
+
+      .cls-5 {
+        fill: #99b2ff;
+      }
+
+      .cls-6 {
+        fill: #4140ff;
+      }
+
+      .cls-7 {
+        fill: #909697;
+      }
+
+      .cls-8 {
+        fill: #041901;
+      }
+
+      .cls-9 {
+        fill: #f15001;
+      }
+    </style>
+  </defs>
+  <g id="Layer_31" data-name="Layer 31">
+    <g>
+      <g>
+        <g>
+          <polygon class="cls-7" points="563.71 907.07 544.91 925.86 1.5 20.3 20.3 1.5 562.71 91.29 563.71 907.07"/>
+          <line class="cls-7" x1="562.71" y1="91.29" x2="544.91" y2="105.33"/>
+        </g>
+        <polygon class="cls-4" points="544.91 925.86 1.5 837.69 1.5 20.3 544.91 105.33 544.91 925.86"/>
+      </g>
+      <g>
+        <polygon class="cls-5" points="221.8 807.24 71.28 780.09 71.28 75.09 221.8 102.24 221.8 807.24"/>
+        <polygon class="cls-6" points="221.79 238.08 221.79 815.89 71.27 788.75 71.27 210.93 221.79 238.08"/>
+        <polygon class="cls-8" points="221.79 312.41 221.79 815.89 71.27 788.75 71.27 285.26 221.79 312.41"/>
+        <polygon class="cls-3" points="221.79 447.2 221.79 815.89 71.27 788.75 71.27 420.05 221.79 447.2"/>
+        <polygon class="cls-2" points="221.79 580.58 221.79 815.89 71.27 788.75 71.27 553.44 221.79 580.58"/>
+        <polygon class="cls-1" points="221.79 679.63 221.79 815.89 71.27 788.75 71.27 652.48 221.79 679.63"/>
+        <polygon class="cls-9" points="221.79 726.7 221.79 815.89 71.27 788.75 71.27 699.55 221.79 726.7"/>
+      </g>
+    </g>
+  </g>
+</svg>

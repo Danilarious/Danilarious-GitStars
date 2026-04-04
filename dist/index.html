@@ -3,157 +3,232 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Danilarious Star Atlas | @Danilarious</title>
-    <meta name="description" content="Browse starred GitHub repositories with progressive loading, category sections, search, filters, and sorting." />
-    <meta name="theme-color" content="#0a0a0a" />
-    <meta name="color-scheme" content="dark" />
+    <title>Danilarious Star Atlas — DANILARIOUS.ART</title>
+    <meta name="description" content="A searchable, category-first catalog of starred GitHub repositories — built by Danilarious, powered by progressive chunk loading." />
+    <meta name="theme-color" content="#F5C800" />
+    <meta name="color-scheme" content="light" />
     <meta name="robots" content="index,follow" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Danilarious Star Atlas | @Danilarious" />
-    <meta property="og:description" content="A searchable, installable catalog of starred repositories with progressive chunk loading and category-first browsing." />
-    <meta property="og:image" content="https://github.com/Danilarious.png?size=512" />
+    <meta property="og:title" content="undefined" />
+    <meta property="og:description" content="Browse starred repositories by category, language, and recency. Built by Danilarious with progressive chunk loading and a clean dark interface." />
+    <meta property="og:image" content="" />
     <meta property="og:url" content="./" />
-    <meta property="og:site_name" content="Danilarious Star Atlas | @Danilarious" />
+    <meta property="og:site_name" content="undefined" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Danilarious Star Atlas | @Danilarious" />
-    <meta name="twitter:description" content="Explore starred repositories by category, language, popularity, and recency without loading the whole dataset upfront." />
-    <meta name="twitter:image" content="https://github.com/Danilarious.png?size=512" />
+    <meta name="twitter:title" content="undefined" />
+    <meta name="twitter:description" content="Danilarious Star Atlas — searchable, filtered, sorted. Everything starred, nothing hidden." />
+    <meta name="twitter:image" content="" />
     <link rel="canonical" href="./" />
-    <link rel="icon" type="image/png" sizes="192x192" href="https://github.com/Danilarious.png?size=192" />
-    <link rel="apple-touch-icon" href="https://github.com/Danilarious.png?size=192" />
+    <link rel="icon" type="image/svg+xml" href="./illustrations/d-art-circle-seal.svg" />
     <link rel="manifest" href="./manifest.json" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Space+Grotesk:wght@400;600;800&display=swap"
       rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#results">Skip to results</a>
 
-    <div class="page-shell">
-      <header class="hero-section">
-        <div class="container-xxl hero-grid">
-          <div class="hero-copy surface-panel surface-panel-lg">
-            <p class="eyebrow">Static GitHub Pages catalog</p>
-            <h1 id="page-title">Danilarious Star Atlas</h1>
-            <p id="page-description" class="hero-description">Explore starred repositories with progressive chunk loading, category-first browsing, debounced search, and a tailored dark interface.</p>
+    <!-- ═══════════════════════════════════════
+         NAV
+    ═══════════════════════════════════════ -->
+    <nav class="dani-nav">
+      <span class="dani-nav__logo">&#9632; Star Atlas</span>
+      <div class="dani-nav__links">
+        <a href="#results">Browse</a>
+        <a href="https://github.com/Danilarious" target="_blank" rel="noreferrer noopener">GitHub Profile ↗</a>
+      </div>
+    </nav>
 
-            <div class="hero-meta" aria-label="Catalog metrics">
-              <div class="metric-tile">
-                <span class="metric-label">Repos loaded</span>
-                <strong id="loaded-count">0</strong>
-              </div>
-              <div class="metric-tile">
-                <span class="metric-label">Total repos</span>
-                <strong id="total-count">0</strong>
-              </div>
-              <div class="metric-tile">
-                <span class="metric-label">Updated</span>
-                <strong id="generated-at">Waiting</strong>
-              </div>
+    <!-- ═══════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════ -->
+    <header class="hero-section">
+      <div class="hero-inner">
+
+        <div class="hero-text reveal from-bottom">
+          <span class="hero-eyebrow">&#9632; danilarious.art</span>
+          <h1 id="page-title" class="hero-headline">Star Atlas</h1>
+          <p id="page-description" class="hero-sub">Everything I've starred — organized, searchable, and browsable by category. Built on progressive chunk loading so it stays fast even as the list grows.</p>
+
+          <!-- Metrics -->
+          <div class="hero-metrics" aria-label="Catalog metrics">
+            <div class="metric-chip">
+              <span class="metric-chip__label">LOADED</span>
+              <strong id="loaded-count" class="metric-chip__value">—</strong>
             </div>
-
-            <div class="hero-actions">
-              <a class="btn atlas-btn-primary" href="https://github.com/Danilarious" target="_blank" rel="noreferrer noopener">
-                GitHub Profile
-              </a>
+            <div class="metric-chip">
+              <span class="metric-chip__label">TOTAL</span>
+              <strong id="total-count" class="metric-chip__value">—</strong>
+            </div>
+            <div class="metric-chip">
+              <span class="metric-chip__label">UPDATED</span>
+              <strong id="generated-at" class="metric-chip__value">Syncing</strong>
             </div>
           </div>
 
+          <!-- Actions -->
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://github.com/Danilarious" target="_blank" rel="noreferrer noopener">
+              GitHub Profile ↗
+            </a>
+            <a class="btn btn-secondary" href="#results">
+              Browse the Atlas →
+            </a>
+          </div>
         </div>
-      </header>
 
-      <main class="container-xxl pb-5" id="results">
-        <section class="controls-section surface-panel" aria-labelledby="controls-title">
-          <div class="section-head">
-            <div>
-              <p class="eyebrow">Controls</p>
-              <h2 id="controls-title">Search, filter, and sort</h2>
-            </div>
-          </div>
+        <!-- Hero illustration -->
+        <div class="hero-art reveal from-right" aria-hidden="true">
+          <img
+            src="./illustrations/codemaster.svg"
+            alt="Codemaster"
+            class="anim-float spin-on-click"
+            width="300"
+            height="300"
+            loading="eager"
+          />
+        </div>
 
-          <div class="row g-3 align-items-end controls-grid">
-            <div class="col-12 col-xl-4">
-              <label class="form-label text-uppercase tiny-label" for="search-input">Search repositories</label>
-              <input
-                class="form-control atlas-input"
-                id="search-input"
-                type="search"
-                placeholder="Search by name, topic, language, description"
-                autocomplete="off"
-                spellcheck="false"
-              />
-            </div>
-            <div class="col-6 col-md-4 col-xl-2">
-              <label class="form-label text-uppercase tiny-label" for="sort-select">Sort by</label>
-              <select class="form-select atlas-select" id="sort-select">
-                <option value="starred-desc">Recently starred</option>
-                <option value="stars-desc">Most stars</option>
-                <option value="updated-desc">Recently updated</option>
-                <option value="name-asc">Repository name</option>
-              </select>
-            </div>
-            <div class="col-6 col-md-4 col-xl-2">
-              <label class="form-label text-uppercase tiny-label" for="visibility-select">Visibility</label>
-              <select class="form-select atlas-select" id="visibility-select">
-                <option value="all">All repos</option>
-                <option value="active">Active only</option>
-                <option value="archived">Archived only</option>
-              </select>
-            </div>
-            <div class="col-6 col-md-4 col-xl-2">
-              <label class="form-label text-uppercase tiny-label" for="language-select">Language</label>
-              <select class="form-select atlas-select" id="language-select">
-                <option value="all">All languages</option>
-              </select>
-            </div>
-            <div class="col-6 col-md-4 col-xl-2">
-              <label class="form-label text-uppercase tiny-label" for="license-select">License</label>
-              <select class="form-select atlas-select" id="license-select">
-                <option value="all">All licenses</option>
-              </select>
-            </div>
-          </div>
+      </div>
+    </header>
 
-          <div class="active-summary" id="active-summary">Preparing filters.</div>
-        </section>
-
-        <section class="category-nav surface-panel" aria-labelledby="category-nav-title">
-          <div class="section-head compact-head">
-            <div>
-              <p class="eyebrow">Categories</p>
-              <h2 id="category-nav-title">Jump between sections</h2>
-            </div>
-          </div>
-          <div class="pill-row" id="category-pills" role="tablist" aria-label="Category filters"></div>
-        </section>
-
-        <section aria-labelledby="section-title" class="results-shell">
-          <div class="results-header">
-            <div>
-              <p class="eyebrow">Results</p>
-              <h2 id="section-title">Repositories by category</h2>
-            </div>
-          </div>
-
-          <div class="empty-state surface-panel d-none" id="empty-state">
-            <h3>No repositories matched.</h3>
-            <p>Try a broader search, switch category, or reset the archived filter.</p>
-          </div>
-
-          <div id="sections-root" class="sections-root"></div>
-          <div class="load-sentinel" id="load-sentinel" aria-hidden="true"></div>
-        </section>
-      </main>
+    <!-- ═══════════════════════════════════════
+         DIVIDER
+    ═══════════════════════════════════════ -->
+    <div class="dani-divider" aria-hidden="true">
+      <img src="./illustrations/eye-01.svg" alt="" class="anim-pulse spin-on-click" loading="lazy" />
+      <div class="dani-divider__rule"></div>
+      <img src="./illustrations/bit.svg" alt="" class="anim-float spin-on-click" loading="lazy" />
+      <div class="dani-divider__rule"></div>
+      <img src="./illustrations/wigglytooth.svg" alt="" class="anim-pulse spin-on-click" loading="lazy" />
     </div>
+
+    <!-- ═══════════════════════════════════════
+         MAIN
+    ═══════════════════════════════════════ -->
+    <main class="main-content" id="results">
+
+      <!-- Status banner (injected by app.js) -->
+      <div id="status-banner" class="status-banner-wrap" aria-live="polite" aria-atomic="true"></div>
+
+      <!-- ── Controls ── -->
+      <section class="controls-section" aria-labelledby="controls-title">
+        <div class="section-head">
+          <span class="section-label">&#9632; Controls</span>
+          <h2 id="controls-title">Search &amp; filter</h2>
+        </div>
+
+        <div class="controls-grid">
+          <div class="control-group control-group--wide">
+            <label class="control-label" for="search-input">Search repositories</label>
+            <input
+              class="atlas-input"
+              id="search-input"
+              type="search"
+              placeholder="name, topic, language, description…"
+              autocomplete="off"
+              spellcheck="false"
+            />
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="sort-select">Sort</label>
+            <select class="atlas-select" id="sort-select">
+              <option value="starred-desc">Recently starred</option>
+              <option value="stars-desc">Most stars</option>
+              <option value="updated-desc">Recently updated</option>
+              <option value="name-asc">Repo name A→Z</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="visibility-select">Status</label>
+            <select class="atlas-select" id="visibility-select">
+              <option value="all">All repos</option>
+              <option value="active">Active only</option>
+              <option value="archived">Archived only</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="language-select">Language</label>
+            <select class="atlas-select" id="language-select">
+              <option value="all">All languages</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="license-select">License</label>
+            <select class="atlas-select" id="license-select">
+              <option value="all">All licenses</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="active-summary" id="active-summary">Preparing catalog.</div>
+      </section>
+
+      <!-- ── Category Nav ── -->
+      <section class="category-nav-section" aria-labelledby="category-nav-title">
+        <div class="section-head">
+          <span class="section-label">&#9632; Categories</span>
+          <h2 id="category-nav-title">Jump to section</h2>
+        </div>
+        <div class="pill-row" id="category-pills" role="tablist" aria-label="Category filters"></div>
+      </section>
+
+      <!-- ── Results ── -->
+      <section aria-labelledby="section-title" class="results-section">
+        <div class="section-head">
+          <span class="section-label">&#9632; Results</span>
+          <h2 id="section-title">Repositories by category</h2>
+        </div>
+
+        <div class="empty-state hidden" id="empty-state">
+          <img src="./illustrations/hosenose.svg" alt="" class="anim-float" width="120" loading="lazy" aria-hidden="true" />
+          <h3>Nothing matched.</h3>
+          <p>Try a broader search, switch category, or clear the archived filter.</p>
+        </div>
+
+        <div id="sections-root" class="sections-root"></div>
+        <div class="load-sentinel" id="load-sentinel" aria-hidden="true"></div>
+      </section>
+
+    </main>
+
+    <!-- ═══════════════════════════════════════
+         FOOTER DIVIDER
+    ═══════════════════════════════════════ -->
+    <div class="dani-divider footer-divider" aria-hidden="true">
+      <img src="./illustrations/red-tubes.svg" alt="" class="anim-pulse spin-on-click" loading="lazy" />
+      <div class="dani-divider__rule"></div>
+      <img src="./illustrations/green-snaked-lotus.svg" alt="" class="anim-float spin-on-click" loading="lazy" />
+      <div class="dani-divider__rule"></div>
+      <img src="./illustrations/tank-01.svg" alt="" class="anim-rumble spin-on-click" loading="lazy" />
+    </div>
+
+    <!-- ═══════════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════════ -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <div class="footer-menagerie">
+            <img src="./illustrations/codemaster.svg" alt="" class="anim-float" loading="lazy" />
+            <img src="./illustrations/otis-left-facing.svg" alt="" class="anim-sway" loading="lazy" />
+            <img src="./illustrations/guitaralarious.svg" alt="" class="anim-pulse" loading="lazy" />
+            <img src="./illustrations/calliope-01.svg" alt="" class="anim-float" loading="lazy" />
+          </div>
+          <div class="footer-copy">
+            <p>Star Atlas — part of <a href="https://danilarious.art" target="_blank" rel="noopener">danilarious.art</a></p>
+            <p>Built by Danilarious — 2026</p>
+          </div>
+        </div>
+        <div class="footer-seal">
+          <img src="./illustrations/d-art-circle-seal.svg" alt="Danilarious seal" loading="lazy" width="80" />
+        </div>
+      </div>
+    </footer>
 
     <noscript>
       <div class="noscript-banner">This catalog needs JavaScript to progressively load repository chunks.</div>

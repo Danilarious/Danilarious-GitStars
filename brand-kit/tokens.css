@@ -1,0 +1,74 @@
+/**
+ * Danilarious Brand Tokens
+ * Version 1.0 — April 2026
+ *
+ * This is the canonical token file for the Danilarious brand system.
+ * Import this first in any Danilarious-branded project.
+ *
+ * Brand Reference: danilarious.art · danilarious-agents.netlify.app
+ */
+
+:root {
+  /* ── Background ───────────────────────────────────── */
+  --dani-bg:              #0a0808;
+  --dani-bg-soft:         #130f0f;
+  --dani-bg-raised:       #1a1515;
+  --dani-panel:           rgba(20, 16, 16, 0.92);
+  --dani-panel-strong:    rgba(10, 8, 8, 0.97);
+
+  /* ── Borders ──────────────────────────────────────── */
+  --dani-border:          rgba(255, 255, 255, 0.09);
+  --dani-border-mid:      rgba(255, 255, 255, 0.15);
+  --dani-border-strong:   rgba(255, 255, 255, 0.22);
+
+  /* ── Text ─────────────────────────────────────────── */
+  --dani-text:            #f0eeee;
+  --dani-text-muted:      #9a9090;
+  --dani-text-faint:      #5e5858;
+
+  /* ── Accent ───────────────────────────────────────── */
+  --dani-accent-warm:     #e8c97e;
+  --dani-accent-warm-dim: rgba(232, 201, 126, 0.10);
+  --dani-accent-warm-glow:rgba(232, 201, 126, 0.06);
+  --dani-accent-hot:      #e87e7e;
+  --dani-accent-cool:     #7eb8e8;
+  --dani-accent-green:    #86d9a0;
+
+  /* ── Spacing (8px base) ───────────────────────────── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+  --space-9:  96px;
+
+  /* ── Border Radius ────────────────────────────────── */
+  --radius-sm:   10px;
+  --radius-md:   16px;
+  --radius-lg:   24px;
+  --radius-xl:   32px;
+  --radius-pill: 999px;
+
+  /* ── Shadows ──────────────────────────────────────── */
+  --shadow-sm:   0 4px 16px rgba(0, 0, 0, 0.35);
+  --shadow-md:   0 12px 40px rgba(0, 0, 0, 0.45);
+  --shadow-lg:   0 24px 80px rgba(0, 0, 0, 0.55);
+  --shadow-glow: 0 0 40px rgba(232, 201, 126, 0.08);
+
+  /* ── Transitions ──────────────────────────────────── */
+  --ease-out:   cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:    cubic-bezier(0.4, 0, 1, 1);
+  --ease-snap:  cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast:   140ms;
+  --dur-base:   200ms;
+  --dur-slow:   340ms;
+
+  /* ── Signature Visual Treatments ─────────────────── */
+  --dani-shimmer: linear-gradient(135deg, rgba(255, 255, 255, 0.04), transparent 60%);
+  --dani-glow-warm: radial-gradient(circle, rgba(232, 201, 126, 0.08), transparent 65%);
+  --dani-texture-size: 28px;
+  --dani-eyebrow-prefix: "■ ";
+}
