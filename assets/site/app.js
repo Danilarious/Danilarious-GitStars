@@ -441,16 +441,13 @@ function setStatus(message, tone = "idle") {
 		return;
 	}
 
-	elements.statusBanner.textContent = message;
-	elements.statusBanner.classList.remove("busy", "error");
-
-	if (tone === "busy") {
-		elements.statusBanner.classList.add("busy");
+	if (!message) {
+		elements.statusBanner.innerHTML = "";
+		return;
 	}
 
-	if (tone === "error") {
-		elements.statusBanner.classList.add("error");
-	}
+	const icon = tone === "busy" ? "◌" : tone === "error" ? "✕" : "■";
+	elements.statusBanner.innerHTML = `<span class="status-banner ${tone}">${icon ? `<span aria-hidden="true">${icon}</span> ` : ""}${escapeHtml(message)}</span>`;
 }
 
 function updateHeaderStats() {
@@ -637,8 +634,13 @@ function renderRepoCard(record) {
 		.filter(Boolean)
 		.join("");
 
+	const starCount = record.stargazersCount;
+	const starLabel = starCount >= 1000
+		? `${(starCount / 1000).toFixed(starCount >= 10000 ? 0 : 1)}k`
+		: formatNumber(starCount);
+
 	return `
-    <article class="repo-card">
+    <article class="repo-card" data-category="${escapeHtml(record.category)}">
       <div>
         <a class="repo-anchor" href="${escapeHtml(record.url)}" target="_blank" rel="noreferrer">
           <h4 class="repo-name">${escapeHtml(record.fullName)}</h4>
@@ -654,9 +656,8 @@ function renderRepoCard(record) {
 
       <div class="repo-footer">
         <div class="repo-meta">
-          <span>★ ${formatNumber(record.stargazersCount)}</span>
-          <span>Starred ${escapeHtml(formatRelativeDate(record.starredAt))}</span>
-          <span>Updated ${escapeHtml(formatRelativeDate(record.updatedAt))}</span>
+          <span class="star-count">★ ${starLabel}</span>
+          <span>↑ ${escapeHtml(formatRelativeDate(record.updatedAt))}</span>
         </div>
       </div>
     </article>
@@ -706,22 +707,22 @@ function renderSections() {
 
 	if (grouped.length === 0) {
 		elements.sectionsRoot.innerHTML = "";
-		elements.emptyState.classList.remove("d-none");
+		elements.emptyState.classList.remove("hidden");
 		return;
 	}
 
-	elements.emptyState.classList.add("d-none");
+	elements.emptyState.classList.add("hidden");
 	elements.sectionsRoot.innerHTML = grouped
 		.map(
 			(category, index) => `
-        <section class="category-section" id="category-${escapeHtml(category.id)}" style="animation-delay: ${index * 40}ms">
+        <section class="category-section" id="category-${escapeHtml(category.id)}" style="animation-delay: ${index * 50}ms">
           <div class="category-head">
             <div class="category-copy">
-              <p class="eyebrow">${escapeHtml(category.id)}</p>
-              <h3>${escapeHtml(category.title)}</h3>
+              <p class="eyebrow">■ ${escapeHtml(category.id)}</p>
+              <h3 class="category-section-title">${escapeHtml(category.title)}</h3>
               <p class="category-description">${escapeHtml(category.description)}</p>
             </div>
-            <span class="count-pill">${formatNumber(category.items.length)} repos</span>
+            <span class="count-pill">${formatNumber(category.items.length)}</span>
           </div>
           <div class="repo-grid">
             ${category.items.map((record) => renderRepoCard(record)).join("")}
@@ -941,3 +942,37 @@ async function init() {
 }
 
 void init();
+
+/* ─────────────────────────────────────────────────────
+   DANILARIOUS BRAND — REVEAL OBSERVER + SPIN-ON-CLICK
+   ───────────────────────────────────────────────────── */
+const revealObserver = new IntersectionObserver(
+	(entries) => {
+		for (const entry of entries) {
+			if (entry.isIntersecting) {
+				entry.target.classList.add("visible");
+			}
+		}
+	},
+	{ threshold: 0.08 },
+);
+
+document.querySelectorAll(".reveal").forEach((el) => revealObserver.observe(el));
+
+document.querySelectorAll(".spin-on-click").forEach((el) => {
+	el.addEventListener("click", () => {
+		el.style.animation = "none";
+		void el.offsetWidth;
+		el.style.animation = "";
+		const orig = el.style.animation;
+		el.style.animation = "spin-click 0.6s linear";
+		el.addEventListener(
+			"animationend",
+			() => {
+				el.style.animation = orig;
+			},
+			{ once: true },
+		);
+	});
+});
+

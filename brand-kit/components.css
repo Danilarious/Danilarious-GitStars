@@ -1,0 +1,257 @@
+/**
+ * Danilarious Component Primitives
+ * Version 1.0 — April 2026
+ *
+ * These are reusable building blocks for all Danilarious projects.
+ * Import tokens.css and typography.css first.
+ */
+
+/* ── Panel / Surface ───────────────────────────────────── */
+.dani-panel {
+  position: relative;
+  overflow: hidden;
+  background: var(--dani-panel);
+  border: 1px solid var(--dani-border);
+  border-radius: var(--radius-lg);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: var(--shadow-md);
+}
+
+.dani-panel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--dani-shimmer);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dani-panel > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Buttons ───────────────────────────────────────────── */
+.dani-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.4rem;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(135deg, #f0eeee 0%, #d4d0d0 100%);
+  color: #0a0808;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    filter var(--dur-base) var(--ease-out),
+    transform var(--dur-fast) var(--ease-out),
+    box-shadow var(--dur-base) var(--ease-out);
+}
+
+.dani-btn:hover,
+.dani-btn:focus-visible {
+  color: #0a0808;
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+}
+
+.dani-btn:active {
+  transform: translateY(0);
+}
+
+.dani-btn-ghost {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--dani-border-mid);
+  color: var(--dani-text);
+}
+
+.dani-btn-ghost:hover,
+.dani-btn-ghost:focus-visible {
+  color: var(--dani-text);
+  background: rgba(255, 255, 255, 0.07);
+  border-color: var(--dani-border-strong);
+  filter: none;
+  transform: translateY(-1px);
+}
+
+.dani-btn-accent {
+  background: var(--dani-accent-warm-dim);
+  border: 1px solid rgba(232, 201, 126, 0.28);
+  color: var(--dani-accent-warm);
+}
+
+.dani-btn-accent:hover,
+.dani-btn-accent:focus-visible {
+  color: var(--dani-accent-warm);
+  background: rgba(232, 201, 126, 0.16);
+  border-color: rgba(232, 201, 126, 0.4);
+  filter: none;
+}
+
+/* ── Pill / Tag ────────────────────────────────────────── */
+.dani-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--dani-border);
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.03);
+  font-family: var(--font-display);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--dani-text);
+  cursor: pointer;
+  transition:
+    background var(--dur-base) var(--ease-out),
+    border-color var(--dur-base) var(--ease-out),
+    color var(--dur-base) var(--ease-out);
+  user-select: none;
+}
+
+.dani-pill:hover {
+  background: rgba(255, 255, 255, 0.055);
+  border-color: var(--dani-border-mid);
+}
+
+.dani-pill.active {
+  background: var(--dani-accent-warm-dim);
+  border-color: rgba(232, 201, 126, 0.28);
+  color: var(--dani-accent-warm);
+}
+
+/* ── Tag / Chip (small) ────────────────────────────────── */
+.dani-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.6rem;
+  border: 1px solid var(--dani-border);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.03);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--dani-text-muted);
+}
+
+.dani-chip.lang {
+  color: var(--dani-text);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.dani-chip.topic {
+  color: var(--dani-accent-cool);
+  border-color: rgba(126, 184, 232, 0.15);
+  background: rgba(126, 184, 232, 0.05);
+}
+
+.dani-chip.star {
+  color: var(--dani-accent-warm);
+  border-color: rgba(232, 201, 126, 0.18);
+  background: var(--dani-accent-warm-dim);
+}
+
+/* ── Card ──────────────────────────────────────────────── */
+.dani-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--dani-border);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.022);
+  transition:
+    border-color var(--dur-base) var(--ease-out),
+    background var(--dur-base) var(--ease-out),
+    transform var(--dur-fast) var(--ease-out),
+    box-shadow var(--dur-base) var(--ease-out);
+}
+
+.dani-card:hover {
+  border-color: var(--dani-border-mid);
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ── Metric Tile ───────────────────────────────────────── */
+.dani-metric {
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--dani-border);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.dani-metric-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--dani-text-muted);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.dani-metric-value {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--dani-text);
+  display: block;
+}
+
+/* ── Form Controls ─────────────────────────────────────── */
+.dani-input {
+  display: block;
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--dani-border);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--dani-text);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  outline: none;
+  transition:
+    border-color var(--dur-base) var(--ease-out),
+    background var(--dur-base) var(--ease-out),
+    box-shadow var(--dur-base) var(--ease-out);
+}
+
+.dani-input::placeholder {
+  color: var(--dani-text-faint);
+}
+
+.dani-input:hover {
+  border-color: var(--dani-border-mid);
+}
+
+.dani-input:focus {
+  border-color: var(--dani-border-strong);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 0 3px rgba(232, 201, 126, 0.08);
+}
+
+/* ── Animations ────────────────────────────────────────── */
+@keyframes dani-fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes dani-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes dani-pulse-warm {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(232, 201, 126, 0); }
+  50%       { box-shadow: 0 0 12px 3px rgba(232, 201, 126, 0.12); }
+}
