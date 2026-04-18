@@ -1,0 +1,50 @@
+{
+  "spacing": {
+    "1": {
+      "value": "5px",
+      "type": "dimension"
+    },
+    "2": {
+      "value": "10px",
+      "type": "dimension"
+    },
+    "3": {
+      "value": "15px",
+      "type": "dimension"
+    },
+    "4": {
+      "value": "20px",
+      "type": "dimension"
+    },
+    "6": {
+      "value": "30px",
+      "type": "dimension"
+    },
+    "8": {
+      "value": "40px",
+      "type": "dimension"
+    },
+    "10": {
+      "value": "50px",
+      "type": "dimension"
+    },
+    "12": {
+      "value": "60px",
+      "type": "dimension"
+    },
+    "16": {
+      "value": "80px",
+      "type": "dimension"
+    },
+    "20": {
+      "value": "100px",
+      "type": "dimension"
+    },
+    "grid": {
+      "base": {
+        "value": "32px",
+        "type": "dimension"
+      }
+    }
+  }
+}

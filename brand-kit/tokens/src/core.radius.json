@@ -1,0 +1,29 @@
+{
+  "radius": {
+    "none": {
+      "value": "0px",
+      "type": "dimension",
+      "description": "Canonical container shape state."
+    },
+    "sm": {
+      "value": "2px",
+      "type": "dimension",
+      "description": "Softened inner elements, text backgrounds."
+    },
+    "md": {
+      "value": "4px",
+      "type": "dimension",
+      "description": "Occasional card usage to prevent harsh eye tracks, use sparingly."
+    },
+    "pill": {
+      "value": "100px",
+      "type": "dimension",
+      "description": "Accent buttons, tags, chips."
+    },
+    "circle": {
+      "value": "50%",
+      "type": "dimension",
+      "description": "Avatars and numeric step markers."
+    }
+  }
+}

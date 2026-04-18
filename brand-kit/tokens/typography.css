@@ -1,0 +1,134 @@
+/**
+ * Danilarious Brand — Typography Tokens
+ * Version 1.0 — April 2026
+ */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Space+Grotesk:wght@400;600;800&display=swap');
+
+:root {
+  /* ─────────────────────────────────────────────────────
+     FONT FAMILIES
+     ───────────────────────────────────────────────────── */
+  --dani-font-sans:    'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --dani-font-mono:    'Space Mono', 'Courier New', monospace;
+
+  /* ─────────────────────────────────────────────────────
+     FONT SIZES — DISPLAY
+     ───────────────────────────────────────────────────── */
+  --dani-text-xs:      0.68rem;   /* 10.9px — tiny labels */
+  --dani-text-sm:      0.78rem;   /* 12.5px — small labels, nav */
+  --dani-text-base:    1rem;      /* 16px — base body */
+  --dani-text-md:      1.1rem;    /* 17.6px — large body */
+  --dani-text-lg:      1.3rem;    /* 20.8px — card headings */
+  --dani-text-xl:      1.6rem;    /* 25.6px — section sub-heads */
+  --dani-text-2xl:     2rem;      /* 32px — h2 */
+  --dani-text-3xl:     clamp(2rem, 4vw, 3rem);    /* h2 fluid */
+  --dani-text-hero:    clamp(2.6rem, 6vw, 4.8rem);/* h1 fluid */
+
+  /* ─────────────────────────────────────────────────────
+     FONT WEIGHTS
+     ───────────────────────────────────────────────────── */
+  --dani-weight-regular: 400;
+  --dani-weight-semi:    600;
+  --dani-weight-bold:    700;
+  --dani-weight-black:   800;
+
+  /* ─────────────────────────────────────────────────────
+     LINE HEIGHTS
+     ───────────────────────────────────────────────────── */
+  --dani-leading-tight:  1.15;
+  --dani-leading-snug:   1.35;
+  --dani-leading-body:   1.65;
+
+  /* ─────────────────────────────────────────────────────
+     LETTER SPACING
+     ───────────────────────────────────────────────────── */
+  --dani-tracking-tight:  -0.01em;
+  --dani-tracking-normal:  0;
+  --dani-tracking-wide:    0.06em;
+  --dani-tracking-wider:   0.10em;
+  --dani-tracking-widest:  0.15em;
+}
+
+/* ─────────────────────────────────────────────────────
+   GLOBAL TYPE RESET
+   ───────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--dani-font-sans);
+  font-size: var(--dani-text-md);
+  line-height: var(--dani-leading-body);
+  color: var(--dani-ink);
+}
+
+/* ─────────────────────────────────────────────────────
+   HEADING UTILITIES
+   ───────────────────────────────────────────────────── */
+.dani-h1 {
+  font-family: var(--dani-font-sans);
+  font-size: var(--dani-text-hero);
+  font-weight: var(--dani-weight-black);
+  line-height: var(--dani-leading-tight);
+}
+
+.dani-h2 {
+  font-family: var(--dani-font-sans);
+  font-size: var(--dani-text-3xl);
+  font-weight: var(--dani-weight-black);
+  line-height: var(--dani-leading-tight);
+  margin-bottom: 1.25rem;
+}
+
+.dani-h3 {
+  font-family: var(--dani-font-sans);
+  font-size: var(--dani-text-lg);
+  font-weight: var(--dani-weight-black);
+  line-height: var(--dani-leading-snug);
+  margin-bottom: 0.5rem;
+}
+
+/* ─────────────────────────────────────────────────────
+   EYEBROW / LABEL UTILITIES
+   ───────────────────────────────────────────────────── */
+.dani-eyebrow,
+.section-label {
+  font-family: var(--dani-font-mono);
+  font-size: var(--dani-text-xs);
+  font-weight: var(--dani-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--dani-tracking-widest);
+  color: var(--dani-gray);
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.dani-eyebrow--coral { color: var(--dani-coral); }
+.dani-eyebrow--yellow { color: var(--dani-yellow); }
+.dani-eyebrow--blue { color: var(--dani-blue); }
+
+/* ─────────────────────────────────────────────────────
+   MONO UTILITY
+   ───────────────────────────────────────────────────── */
+.dani-mono {
+  font-family: var(--dani-font-mono);
+}
+
+/* ─────────────────────────────────────────────────────
+   BRAND SIGNATURE MARKER  ■
+   ───────────────────────────────────────────────────── */
+.dani-marker::before {
+  content: '■ ';
+  font-family: var(--dani-font-mono);
+  letter-spacing: 0;
+}

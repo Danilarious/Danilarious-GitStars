@@ -1,0 +1,73 @@
+/**
+ * Danilarious Brand — Spacing, Radius & Shadow Tokens
+ * Version 1.0 — April 2026
+ */
+
+:root {
+  /* ─────────────────────────────────────────────────────
+     SPACING SCALE
+     ───────────────────────────────────────────────────── */
+  --dani-space-1:   0.25rem;   /*  4px */
+  --dani-space-2:   0.5rem;    /*  8px */
+  --dani-space-3:   0.75rem;   /* 12px */
+  --dani-space-4:   1rem;      /* 16px */
+  --dani-space-5:   1.25rem;   /* 20px */
+  --dani-space-6:   1.5rem;    /* 24px */
+  --dani-space-8:   2rem;      /* 32px */
+  --dani-space-10:  2.5rem;    /* 40px */
+  --dani-space-12:  3rem;      /* 48px */
+  --dani-space-16:  4rem;      /* 64px */
+  --dani-space-20:  5rem;      /* 80px */
+  --dani-space-24:  6rem;      /* 96px */
+
+  /* ─────────────────────────────────────────────────────
+     BORDER RADIUS
+     Danilarious uses 0 (sharp) by default. Small radius
+     for pills/chips only.
+     ───────────────────────────────────────────────────── */
+  --dani-radius-none:  0;
+  --dani-radius-sm:    2px;    /* code, tiny labels */
+  --dani-radius-pill:  100px;  /* pill badges */
+
+  /* ─────────────────────────────────────────────────────
+     BORDERS
+     ───────────────────────────────────────────────────── */
+  --dani-border-width:    2.5px;
+  --dani-border-thin:     1.5px;
+  --dani-border-thick:    3px;
+  --dani-border-rule:     2px solid var(--dani-ink);
+  --dani-border-subtle:   2px solid var(--dani-cream-2);
+
+  /* ─────────────────────────────────────────────────────
+     OFFSET SHADOWS
+     The "print" offset shadow is the Danilarious signature.
+     No Gaussian blur — only hard offsets.
+     ───────────────────────────────────────────────────── */
+  --dani-shadow-sm:    3px 3px 0 var(--dani-ink);
+  --dani-shadow-md:    5px 5px 0 var(--dani-ink);
+  --dani-shadow-lg:    8px 8px 0 var(--dani-ink);
+  --dani-shadow-yellow:  5px 5px 0 var(--dani-yellow);
+  --dani-shadow-coral:   5px 5px 0 var(--dani-coral);
+
+  /* ─────────────────────────────────────────────────────
+     GRID / BACKGROUND TEXTURE
+     ───────────────────────────────────────────────────── */
+  --dani-grid-size: 32px;
+  --dani-grid-bg: linear-gradient(var(--dani-cream-2) 1px, transparent 1px),
+                  linear-gradient(90deg, var(--dani-cream-2) 1px, transparent 1px);
+
+  /* ─────────────────────────────────────────────────────
+     Z-INDEX SCALE
+     ───────────────────────────────────────────────────── */
+  --dani-z-base:    1;
+  --dani-z-raised:  10;
+  --dani-z-nav:     100;
+  --dani-z-overlay: 200;
+  --dani-z-modal:   300;
+
+  /* ─────────────────────────────────────────────────────
+     TRANSITIONS
+     ───────────────────────────────────────────────────── */
+  --dani-ease:      0.15s ease;
+  --dani-ease-slow: 0.3s ease;
+}

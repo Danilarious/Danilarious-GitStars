@@ -1,0 +1,143 @@
+/**
+ * Danilarious Brand — Navigation Component
+ * Version 1.0 — April 2026
+ *
+ * Pattern: sticky top nav, yellow bg, ink border bottom, mono font.
+ *
+ * HTML:
+ *   <nav class="dani-nav">
+ *     <span class="dani-nav__logo">■ BRAND NAME</span>
+ *     <div class="dani-nav__links">
+ *       <a href="#">Link</a>
+ *     </div>
+ *   </nav>
+ */
+
+.dani-nav {
+  background: var(--dani-yellow);
+  border-bottom: var(--dani-border-thick) solid var(--dani-ink);
+  padding: 0 2rem;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: var(--dani-z-nav);
+  font-family: var(--dani-font-mono);
+}
+
+.dani-nav__logo {
+  font-weight: var(--dani-weight-bold);
+  font-size: var(--dani-text-sm);
+  letter-spacing: var(--dani-tracking-wider);
+  text-transform: uppercase;
+  color: var(--dani-ink);
+  text-decoration: none;
+}
+
+.dani-nav__links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.dani-nav__links a {
+  color: var(--dani-ink);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: var(--dani-tracking-wide);
+  text-decoration: none;
+  font-family: var(--dani-font-mono);
+}
+
+.dani-nav__links a:hover {
+  text-decoration: underline;
+}
+
+/* ─────────────────────────────────────────────────────
+   DIVIDER — decorative horizontal break with SVG icons
+   ───────────────────────────────────────────────────── */
+.dani-divider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  border-top: var(--dani-border-subtle);
+  border-bottom: var(--dani-border-subtle);
+  overflow: hidden;
+}
+
+.dani-divider img {
+  height: 50px;
+  width: auto;
+}
+
+.dani-divider__rule {
+  flex: 1;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--dani-ink) 0,
+    var(--dani-ink) 6px,
+    transparent 6px,
+    transparent 14px
+  );
+  margin: 0 1rem;
+}
+
+/* ─────────────────────────────────────────────────────
+   PILL NAVIGATION (category filters)
+   ───────────────────────────────────────────────────── */
+.dani-pills {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.dani-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  font-family: var(--dani-font-mono);
+  font-size: 0.72rem;
+  font-weight: var(--dani-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--dani-tracking-wide);
+  border: var(--dani-border-width) solid var(--dani-ink);
+  background: transparent;
+  color: var(--dani-ink);
+  cursor: pointer;
+  transition: background var(--dani-ease), transform var(--dani-ease);
+  white-space: nowrap;
+}
+
+.dani-pill:hover {
+  background: var(--dani-cream-2);
+}
+
+.dani-pill.active,
+.dani-pill--active {
+  background: var(--dani-yellow);
+  color: var(--dani-ink);
+}
+
+.dani-pill__count {
+  background: var(--dani-ink);
+  color: #fff;
+  font-size: 0.62rem;
+  padding: 0.1rem 0.35rem;
+  min-width: 1.4em;
+  text-align: center;
+}
+
+.dani-pill.active .dani-pill__count,
+.dani-pill--active .dani-pill__count {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .dani-nav__links { display: none; }
+}

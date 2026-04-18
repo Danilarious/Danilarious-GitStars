@@ -1,0 +1,95 @@
+/**
+ * Danilarious Brand — Button Components
+ * Version 1.0 — April 2026
+ *
+ * Requires tokens/index.css to be loaded first.
+ *
+ * Variants:
+ *   .btn                 — base (unstyled structure)
+ *   .btn-primary         — yellow fill, ink border
+ *   .btn-secondary       — transparent, ink border
+ *   .btn-dark            — ink fill, yellow border
+ *   .btn-green           — green fill, ink border
+ *   .btn-coral           — coral fill, ink border
+ *   .btn-sm              — smaller size modifier
+ */
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.6rem;
+  border: var(--dani-border-width) solid var(--dani-ink);
+  font-family: var(--dani-font-mono);
+  font-size: 0.82rem;
+  font-weight: var(--dani-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--dani-tracking-wide);
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+  transition:
+    transform var(--dani-ease),
+    box-shadow var(--dani-ease);
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--dani-ink);
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: translate(0, 0);
+  box-shadow: none;
+}
+
+/* Primary — yellow fill */
+.btn-primary {
+  background: var(--dani-yellow);
+  color: var(--dani-ink);
+}
+
+/* Secondary — transparent */
+.btn-secondary {
+  background: transparent;
+  color: var(--dani-ink);
+}
+
+/* Dark — ink fill */
+.btn-dark {
+  background: var(--dani-ink);
+  color: var(--dani-yellow);
+  border-color: var(--dani-ink);
+}
+
+.btn-dark:hover {
+  box-shadow: 4px 4px 0 var(--dani-yellow);
+}
+
+/* Green — success / go */
+.btn-green {
+  background: var(--dani-green);
+  color: #fff;
+  border-color: var(--dani-ink);
+}
+
+/* Coral — urgent */
+.btn-coral {
+  background: var(--dani-coral);
+  color: #fff;
+  border-color: var(--dani-ink);
+}
+
+/* Size modifier */
+.btn-sm {
+  padding: 0.45rem 1rem;
+  font-size: 0.72rem;
+}
+
+/* Icon + text pattern */
+.btn .btn-icon {
+  margin-right: 0.4em;
+  vertical-align: -0.1em;
+}

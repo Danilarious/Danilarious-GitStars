@@ -1,0 +1,11 @@
+{
+  "semantic": {
+    "surface": {
+      "canvas": { "value": "{color.cream.100}", "type": "color" },
+      "panel": { "value": "{color.white}", "type": "color" },
+      "grid": { "value": "{color.cream.200}", "type": "color" },
+      "divider": { "value": "{color.cream.300}", "type": "color" },
+      "inverse": { "value": "{color.ink.800}", "type": "color" }
+    }
+  }
+}

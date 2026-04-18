@@ -1,4 +1,4 @@
-import { mkdir, cp } from "node:fs/promises";
+import { cp, mkdir } from "node:fs/promises";
 import Handlebars from "handlebars";
 import { paths } from "./config.ts";
 import type { AppConfig } from "./types.ts";
@@ -56,11 +56,11 @@ export async function syncStaticSiteShell(appConfig: AppConfig): Promise<void> {
 	// Copy illustrations directory
 	const illustrationsSource = new URL("illustrations/", paths.siteShell);
 	const illustrationsDest = new URL("illustrations/", paths.publishRoot);
-	await cp(
-		illustrationsSource.pathname,
-		illustrationsDest.pathname,
-		{ recursive: true },
-	).catch(() => {/* illustrations dir may not exist in some builds */});
+	await cp(illustrationsSource.pathname, illustrationsDest.pathname, {
+		recursive: true,
+	}).catch(() => {
+		/* illustrations dir may not exist in some builds */
+	});
 
 	const templateContext: SiteShellContext = {
 		github: appConfig.github,

@@ -1,0 +1,122 @@
+/**
+ * Danilarious Brand — Card Components
+ * Version 1.0 — April 2026
+ *
+ * Variants:
+ *   .dani-card           — base card (white, ink border)
+ *   .dani-card--yellow   — yellow left accent
+ *   .dani-card--coral    — coral left accent
+ *   .dani-card--blue     — blue left accent
+ *   .dani-card--green    — green left accent
+ *   .dani-card--dark     — dark background card
+ *   .dani-card--hover    — adds hover lift behavior
+ */
+
+.dani-card {
+  background: var(--dani-white);
+  border: var(--dani-border-width) solid var(--dani-ink);
+  padding: 1.5rem;
+}
+
+/* Hover lift — add this class to enable the offset shadow on hover */
+.dani-card--hover {
+  transition: transform var(--dani-ease), box-shadow var(--dani-ease);
+}
+
+.dani-card--hover:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: var(--dani-shadow-md);
+}
+
+/* Colored left accent bars */
+.dani-card--yellow { border-left: 6px solid var(--dani-yellow); }
+.dani-card--coral  { border-left: 6px solid var(--dani-coral); }
+.dani-card--blue   { border-left: 6px solid var(--dani-blue); }
+.dani-card--green  { border-left: 6px solid var(--dani-green); }
+
+/* Dark variant */
+.dani-card--dark {
+  background: var(--dani-ink);
+  color: #fff;
+  border-color: #333;
+}
+
+.dani-card--dark:hover {
+  box-shadow: var(--dani-shadow-yellow);
+}
+
+/* ─────────────────────────────────────────────────────
+   REPO / STAR CARD  (GitStars specific)
+   ───────────────────────────────────────────────────── */
+.dani-repo-card {
+  background: var(--dani-white);
+  border: var(--dani-border-width) solid var(--dani-ink);
+  padding: 1.25rem 1.5rem;
+  transition: transform var(--dani-ease), box-shadow var(--dani-ease);
+  position: relative;
+}
+
+.dani-repo-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: var(--dani-shadow-md);
+}
+
+.dani-repo-card__name {
+  font-family: var(--dani-font-sans);
+  font-weight: var(--dani-weight-bold);
+  font-size: 1rem;
+  color: var(--dani-blue);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.dani-repo-card__name:hover {
+  text-decoration: underline;
+}
+
+.dani-repo-card__description {
+  font-size: 0.9rem;
+  color: var(--dani-gray);
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.dani-repo-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.dani-repo-card__stars {
+  font-family: var(--dani-font-mono);
+  font-size: 0.78rem;
+  color: var(--dani-gold);
+  font-weight: var(--dani-weight-bold);
+}
+
+.dani-repo-card__stars::before {
+  content: '★ ';
+}
+
+/* ─────────────────────────────────────────────────────
+   BADGE / PILL
+   ───────────────────────────────────────────────────── */
+.dani-badge {
+  display: inline-block;
+  font-family: var(--dani-font-mono);
+  font-size: 0.68rem;
+  font-weight: var(--dani-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.5rem;
+  border: var(--dani-border-thin) solid var(--dani-ink);
+  white-space: nowrap;
+}
+
+.dani-badge--yellow   { background: var(--dani-yellow); color: var(--dani-ink); }
+.dani-badge--coral    { background: var(--dani-coral); color: #fff; border-color: var(--dani-coral); }
+.dani-badge--blue     { background: var(--dani-blue); color: #fff; border-color: var(--dani-blue); }
+.dani-badge--green    { background: var(--dani-green); color: #fff; border-color: var(--dani-green); }
+.dani-badge--outline  { background: transparent; }

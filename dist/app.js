@@ -635,9 +635,10 @@ function renderRepoCard(record) {
 		.join("");
 
 	const starCount = record.stargazersCount;
-	const starLabel = starCount >= 1000
-		? `${(starCount / 1000).toFixed(starCount >= 10000 ? 0 : 1)}k`
-		: formatNumber(starCount);
+	const starLabel =
+		starCount >= 1000
+			? `${(starCount / 1000).toFixed(starCount >= 10000 ? 0 : 1)}k`
+			: formatNumber(starCount);
 
 	return `
     <article class="repo-card" data-category="${escapeHtml(record.category)}">
@@ -957,7 +958,9 @@ const revealObserver = new IntersectionObserver(
 	{ threshold: 0.08 },
 );
 
-document.querySelectorAll(".reveal").forEach((el) => revealObserver.observe(el));
+document.querySelectorAll(".reveal").forEach((el) => {
+	revealObserver.observe(el);
+});
 
 document.querySelectorAll(".spin-on-click").forEach((el) => {
 	el.addEventListener("click", () => {
@@ -975,4 +978,3 @@ document.querySelectorAll(".spin-on-click").forEach((el) => {
 		);
 	});
 });
-

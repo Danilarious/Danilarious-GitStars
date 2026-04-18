@@ -1,0 +1,92 @@
+/**
+ * Danilarious Brand — Color Tokens
+ * Source of truth for all brand colors
+ * Version 1.0 — April 2026
+ *
+ * HOW TO USE:
+ *   Link this file (or tokens/index.css) in your <head>.
+ *   Reference via CSS custom properties: var(--dani-yellow)
+ */
+
+:root {
+  /* ─────────────────────────────────────────────────────
+     BACKGROUNDS
+     ───────────────────────────────────────────────────── */
+  --dani-cream:        #F7F3E9;   /* Primary page background */
+  --dani-cream-2:      #EDE8D8;   /* Grid lines, subtle dividers, alt bg */
+  --dani-cream-3:      #E2DAC5;   /* Slightly deeper — section dividers */
+  --dani-white:        #FFFFFF;   /* Card/panel fill */
+
+  /* ─────────────────────────────────────────────────────
+     INK / TEXT
+     ───────────────────────────────────────────────────── */
+  --dani-ink:          #1A1A1A;   /* Primary text, borders, dark UI */
+  --dani-ink-2:        #171318;   /* Near-black — darkest surfaces */
+  --dani-gray:         #555555;   /* Secondary text */
+  --dani-gray-2:       #888888;   /* Tertiary / muted labels */
+  --dani-gray-3:       #5E5A66;   /* Slate — used on dark surfaces */
+
+  /* ─────────────────────────────────────────────────────
+     PRIMARY ACCENT — YELLOW / GOLD
+     ───────────────────────────────────────────────────── */
+  --dani-yellow:       #F5C800;   /* Primary action, nav bar fill */
+  --dani-yellow-2:     #FFD94A;   /* Lighter yellow, highlights */
+  --dani-gold:         #E0B04D;   /* Warm gold — star counts, accents */
+  --dani-gold-2:       #C7A24B;   /* Mustard — deeper gold */
+  --dani-gold-3:       #D7C05D;   /* Warm yellow — mid-range */
+
+  /* ─────────────────────────────────────────────────────
+     ORANGE — BRAND LOGO COLOR
+     ───────────────────────────────────────────────────── */
+  --dani-orange:       #F38A2A;   /* Vivid orange — logo, hero accents */
+  --dani-orange-2:     #E8722A;   /* Deeper orange — hover states */
+
+  /* ─────────────────────────────────────────────────────
+     CORAL / RED — URGENCY, ERROR, HIGHLIGHT
+     ───────────────────────────────────────────────────── */
+  --dani-coral:        #E85D3A;   /* Urgency, eyebrow text, error states */
+  --dani-coral-2:      #F07D60;   /* Lighter coral — hover */
+  --dani-coral-3:      #E87E7E;   /* Soft red — badges */
+
+  /* ─────────────────────────────────────────────────────
+     GREEN — SUCCESS, GO, POSITIVE
+     ───────────────────────────────────────────────────── */
+  --dani-green:        #2D6A3F;   /* Deep green — success section bg */
+  --dani-green-2:      #4A9E63;   /* Mid green — success states */
+  --dani-green-light:  #9AE8A0;   /* Light green — code highlights */
+
+  /* ─────────────────────────────────────────────────────
+     BLUE — LINKS, INFO, TRUST
+     ───────────────────────────────────────────────────── */
+  --dani-blue:         #3B4BC8;   /* Primary link / info blue */
+  --dani-blue-2:       #6B7AE8;   /* Lighter blue — hover */
+  --dani-blue-3:       #95B7D0;   /* Sky blue — soft accent */
+  --dani-blue-4:       #7795A9;   /* Steel blue — muted surfaces */
+
+  /* ─────────────────────────────────────────────────────
+     PURPLE — DEPTH, CREATIVITY
+     ───────────────────────────────────────────────────── */
+  --dani-purple:       #7B5EA7;   /* Mid purple */
+  --dani-purple-2:     #A07FCC;   /* Lighter purple */
+  --dani-eggplant:     #3B255A;   /* Deep eggplant — dark tones */
+
+  /* ─────────────────────────────────────────────────────
+     SEAFOAM / TEAL
+     ───────────────────────────────────────────────────── */
+  --dani-seafoam:      #B4C8C0;   /* Light seafoam — tags, backgrounds */
+
+  /* ─────────────────────────────────────────────────────
+     SEMANTIC ALIASES (use these in components)
+     ───────────────────────────────────────────────────── */
+  --dani-bg:           var(--dani-cream);
+  --dani-bg-grid:      var(--dani-cream-2);
+  --dani-text:         var(--dani-ink);
+  --dani-text-muted:   var(--dani-gray);
+  --dani-accent:       var(--dani-yellow);
+  --dani-accent-2:     var(--dani-orange);
+  --dani-link:         var(--dani-blue);
+  --dani-danger:       var(--dani-coral);
+  --dani-success:      var(--dani-green-2);
+  --dani-border:       var(--dani-ink);
+  --dani-border-width: 2.5px;
+}

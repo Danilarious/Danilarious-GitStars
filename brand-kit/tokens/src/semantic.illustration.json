@@ -1,0 +1,16 @@
+{
+  "semantic": {
+    "illustration": {
+      "fill": {
+        "vibrant": { "value": "{color.orange.base}", "type": "color" },
+        "calm": { "value": "{color.blue.sky}", "type": "color" },
+        "deep": { "value": "{color.purple.base}", "type": "color" }
+      },
+      "outline": { "value": "{color.ink.800}", "type": "color" },
+      "skin": {
+        "base": { "value": "{color.white}", "type": "color" },
+        "shadow": { "value": "{color.cream.300}", "type": "color" }
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-	"name": "Danilarious Star Atlas - A searchable, installable catalog of starred GitHub repositories with progressive chunk loading.",
-	"short_name": "Stars Atlas",
-	"description": "A searchable, installable catalog of starred GitHub repositories with progressive chunk loading.",
+	"name": "Danilarious Star Atlas - A searchable catalog of starred GitHub repositories with category-first browsing and progressive chunk loading.",
+	"short_name": "Star Atlas",
+	"description": "A searchable catalog of starred GitHub repositories with category-first browsing and progressive chunk loading.",
 	"start_url": "./",
 	"scope": "./",
 	"display": "standalone",

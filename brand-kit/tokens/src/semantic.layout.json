@@ -1,0 +1,15 @@
+{
+  "semantic": {
+    "layout": {
+      "border": {
+        "default": { "value": "{border.width.default}", "type": "dimension" },
+        "color": { "value": "{color.ink.800}", "type": "color" }
+      },
+      "shadow": {
+        "solid-sm": { "value": "3px 3px 0 {color.ink.800}", "type": "shadow" },
+        "solid-md": { "value": "5px 5px 0 {color.ink.800}", "type": "shadow" },
+        "solid-lg": { "value": "8px 8px 0 {color.ink.800}", "type": "shadow" }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "semantic": {
+    "text": {
+      "primary": { "value": "{color.ink.800}", "type": "color", "description": "Highest contrast text for readability." },
+      "secondary": { "value": "{color.gray.400}", "type": "color", "description": "Muted body text or descriptions." },
+      "tertiary": { "value": "{color.gray.300}", "type": "color", "description": "Eyebrow labels or fine print." },
+      "inverse": { "value": "{color.cream.100}", "type": "color", "description": "Text sitting on top of ink backgrounds." }
+    }
+  }
+}

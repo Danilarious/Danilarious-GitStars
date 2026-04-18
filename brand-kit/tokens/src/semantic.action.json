@@ -1,0 +1,24 @@
+{
+  "semantic": {
+    "action": {
+      "primary": { 
+        "default": { "value": "{color.yellow.base}", "type": "color" },
+        "hover": { "value": "{color.yellow.light}", "type": "color" }
+      },
+      "secondary": {
+        "default": { "value": "{color.white}", "type": "color" },
+        "hover": { "value": "{color.cream.100}", "type": "color" }
+      },
+      "danger": {
+        "default": { "value": "{color.coral.base}", "type": "color" },
+        "hover": { "value": "{color.coral.light}", "type": "color" }
+      },
+      "success": {
+        "default": { "value": "{color.green.base}", "type": "color" }
+      },
+      "focusRing": {
+        "value": "{color.blue.base}", "type": "color"
+      }
+    }
+  }
+}

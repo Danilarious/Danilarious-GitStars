@@ -1,0 +1,135 @@
+/**
+ * Danilarious Brand — Animation System
+ * Version 1.0 — April 2026
+ *
+ * Signature Danilarious motion patterns.
+ * Light-handed — purposeful, not gratuitous.
+ *
+ * KEYFRAMES:
+ *   float-ud     — gentle vertical float
+ *   rumble       — horizontal oscillation
+ *   pulse-jitter — scale pulse with slight rotation
+ *   sway         — rotational sway
+ *   spin-click   — full spin (triggered on click)
+ *   reveal-up    — entrance from below
+ *
+ * UTILITY CLASSES:
+ *   .anim-float    — continuous float
+ *   .anim-rumble   — continuous rumble
+ *   .anim-pulse    — continuous pulse
+ *   .anim-sway     — continuous sway
+ *   .spin-on-click — spin when clicked (JS required)
+ *
+ * REVEAL SYSTEM:
+ *   .reveal            — base (starts hidden)
+ *   .reveal.from-bottom — slides up on enter
+ *   .reveal.from-left   — slides in from left
+ *   .reveal.from-right  — slides in from right
+ *   .reveal.visible     — triggered state (via IntersectionObserver)
+ */
+
+/* ─────────────────────────────────────────────────────
+   KEYFRAMES
+   ───────────────────────────────────────────────────── */
+@keyframes float-ud {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-12px); }
+}
+
+@keyframes rumble {
+  0%, 100% { transform: translateX(0); }
+  25%      { transform: translateX(-4px); }
+  75%      { transform: translateX(4px); }
+}
+
+@keyframes pulse-jitter {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.04) rotate(1deg); }
+}
+
+@keyframes sway {
+  0%, 100% { transform: rotate(-3deg); }
+  50%      { transform: rotate(3deg); }
+}
+
+@keyframes spin-click {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ─────────────────────────────────────────────────────
+   CONTINUOUS ANIMATION UTILITIES
+   ───────────────────────────────────────────────────── */
+.anim-float {
+  animation: float-ud 3.5s ease-in-out infinite;
+  animation-fill-mode: both;
+  will-change: transform;
+}
+
+.anim-rumble {
+  animation: rumble 1.2s ease-in-out infinite;
+  animation-fill-mode: both;
+  will-change: transform;
+}
+
+.anim-pulse {
+  animation: pulse-jitter 2.5s ease-in-out infinite;
+  animation-fill-mode: both;
+  will-change: transform;
+}
+
+.anim-sway {
+  animation: sway 2.2s ease-in-out infinite;
+  animation-fill-mode: both;
+  will-change: transform;
+}
+
+/* ─────────────────────────────────────────────────────
+   CLICK SPIN (JavaScript hooks this)
+   ───────────────────────────────────────────────────── */
+.spin-on-click {
+  cursor: pointer;
+}
+
+.spin-on-click.spinning {
+  animation: spin-click 0.6s linear;
+}
+
+/* ─────────────────────────────────────────────────────
+   REVEAL SYSTEM (IntersectionObserver driven)
+   ───────────────────────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.from-bottom { transform: translateY(40px); }
+.reveal.from-left   { transform: translateX(-40px); }
+.reveal.from-right  { transform: translateX(40px); }
+
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ─────────────────────────────────────────────────────
+   HOVER LIFT (for cards, buttons)
+   ───────────────────────────────────────────────────── */
+.dani-lift {
+  transition: transform var(--dani-ease), box-shadow var(--dani-ease);
+}
+
+.dani-lift:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: var(--dani-shadow-md);
+}
+
+/* ─────────────────────────────────────────────────────
+   STAGGER DELAYS (use on .reveal children)
+   ───────────────────────────────────────────────────── */
+.stagger-1 { transition-delay: 0.05s; }
+.stagger-2 { transition-delay: 0.10s; }
+.stagger-3 { transition-delay: 0.15s; }
+.stagger-4 { transition-delay: 0.20s; }
+.stagger-5 { transition-delay: 0.25s; }
+.stagger-6 { transition-delay: 0.30s; }

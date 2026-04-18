@@ -1,0 +1,15 @@
+/**
+ * Danilarious Brand — Token Index
+ * Master import — include this single file to get all tokens.
+ * Version 1.0 — April 2026
+ *
+ * Usage:
+ *   <link rel="stylesheet" href="tokens/index.css" />
+ *
+ * All tokens are CSS custom properties under the :root selector.
+ * They are prefixed --dani-* to avoid collisions.
+ */
+
+@import './colors.css';
+@import './typography.css';
+@import './spacing.css';
