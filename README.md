@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-03T06:18:50.967Z`
+Last updated: `2026-04-19T06:53:29.472Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **44**
-- Categories in use: **14**
-- Newly detected this run: **1**
+- Total starred repositories: **72**
+- Categories in use: **17**
+- Newly detected this run: **28**
 - Removed this run: **0**
-- Metadata/category updates: **2**
+- Metadata/category updates: **6**
 
 ## How It Works
 
@@ -143,15 +143,15 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
-    - [AshBuk/speak-to-ai](https://github.com/AshBuk/speak-to-ai) - Speak to AI • Native Linux Speech-to-Text (STT) • Offline, Privacy-Focused
-    - [ARUNAGIRINATHAN-K/awesome-ai-agents](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents) - Awesome AI Agents for 2026
-    - [caramaschiHG/awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026) - 🤖 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources · 20+ categories · Updated monthly.
-    - [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-    - [aiming-lab/MetaClaw](https://github.com/aiming-lab/MetaClaw) - 🦞 Just talk to your agent — it learns and EVOLVES 🧬.
-    - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks
-    - [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) - A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
-    - [agent-sandbox/agent-sandbox](https://github.com/agent-sandbox/agent-sandbox) - Agent Sandbox is an E2B compatible, enterprise-grade ai-first, cloud-native runtime environment for AI Agents. Allows Agents to securely run untrusted LLM-generated Code, Browser use, Computer use, and Shell commands etc. with stateful, long-running, multi-session and multi-tenant.
-    - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
-    - [simstudioai/sim](https://github.com/simstudioai/sim) - Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.
-    - [daytonaio/daytona](https://github.com/daytonaio/daytona) - Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code
-    - [clawrun-sh/clawrun](https://github.com/clawrun-sh/clawrun) - Deploy and manage AI agents in seconds.
+    - [mtytel/helm](https://github.com/mtytel/helm) - Helm - a free polyphonic synth with lots of modulation
+    - [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+    - [dalisys/Ouisper](https://github.com/dalisys/Ouisper) - AI-powered, system-wide dictation for macOS. Trigger recording with a global hotkey and paste transcription into the active app.
+    - [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) - TradingAgents: Multi-Agents LLM Financial Trading Framework
+    - [Tencent-Hunyuan/HY-World-2.0](https://github.com/Tencent-Hunyuan/HY-World-2.0) - HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds
+    - [aaronjmars/aeon](https://github.com/aaronjmars/aeon) - The most autonomous agent framework. No approval loops. No babysitting. Configure once, forget forever.
+    - [joeynyc/hermes-hud](https://github.com/joeynyc/hermes-hud) - TUI consciousness monitor for Hermes
+    - [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) - Free, open source crypto trading bot
+    - [karpathy/nanochat](https://github.com/karpathy/nanochat) - The best ChatGPT that $100 can buy.
+    - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running research on single-GPU nanochat training automatically
+    - [ChatAgentRelay/ChatAgentRelay](https://github.com/ChatAgentRelay/ChatAgentRelay) - A standard relay layer between chat platforms and agents, with governance, routing, delivery reliability, and auditability on the message path.
+    - [garrytan/gbrain](https://github.com/garrytan/gbrain) - Garry's Opinionated OpenClaw/Hermes Agent Brain
