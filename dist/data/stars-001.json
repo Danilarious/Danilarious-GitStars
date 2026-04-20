@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-04-19T06:53:29.472Z",
+	"generatedAt": "2026-04-20T07:24:09.972Z",
 	"chunkIndex": 1,
 	"chunkCount": 1,
 	"items": [
@@ -135,8 +135,8 @@
 			"license": "NOASSERTION",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.8,
-			"classificationReason": "readme:pdf, readme:video, readme:camera, readme:image",
+			"classificationConfidence": 0.77,
+			"classificationReason": "readme:video, readme:camera, readme:image",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
