@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-21T07:05:33.845Z`
+Last updated: `2026-04-22T07:05:11.443Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **81**
+- Total starred repositories: **83**
 - Categories in use: **18**
-- Newly detected this run: **9**
+- Newly detected this run: **2**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,8 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [mksglu/context-mode](https://github.com/mksglu/context-mode) - Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms
+    - [drona23/claude-token-efficient](https://github.com/drona23/claude-token-efficient) - One CLAUDE.md file. Keeps Claude responses terse. Reduces output verbosity on heavy workflows. Drop-in, no code changes.
     - [MrWalkerSir/homie-protocol](https://github.com/MrWalkerSir/homie-protocol) - An open reputation and identity protocol for AI agents
     - [browser-use/browser-harness](https://github.com/browser-use/browser-harness) - Self-healing browser harness that enables LLMs to complete any task.
     - [kesslerio/soulcraft-openclaw-skill](https://github.com/kesslerio/soulcraft-openclaw-skill) - SoulCraft: Create or improve SOUL.md files for OpenClaw agents through guided conversation
@@ -153,5 +155,3 @@ git clone <your-fork-or-copy-url>
     - [safishamsi/graphify](https://github.com/safishamsi/graphify) - AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph
     - [bytedance/trae-agent](https://github.com/bytedance/trae-agent) - Trae Agent is an LLM-based agent for general purpose software engineering tasks.
     - [mtytel/helm](https://github.com/mtytel/helm) - Helm - a free polyphonic synth with lots of modulation
-    - [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
-    - [dalisys/Ouisper](https://github.com/dalisys/Ouisper) - AI-powered, system-wide dictation for macOS. Trigger recording with a global hotkey and paste transcription into the active app.
