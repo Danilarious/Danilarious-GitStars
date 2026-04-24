@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-04-23T07:09:06.993Z",
+	"generatedAt": "2026-04-24T07:11:55.330Z",
 	"chunkIndex": 1,
 	"chunkCount": 1,
 	"items": [
@@ -707,7 +707,7 @@
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
 			"classificationConfidence": 0.98,
-			"classificationReason": "readme:ai-agents, readme:llm, readme:llms, readme:embedding, readme:embeddings, readme:evals, readme:vector search",
+			"classificationReason": "readme:ai-agents, readme:llm, readme:llms, readme:rag, readme:embedding, readme:embeddings, readme:evals, readme:vector search",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
@@ -2462,7 +2462,7 @@
 			"license": "Apache-2.0",
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.82,
+			"classificationConfidence": 0.83,
 			"classificationReason": "description:design, readme:design, readme:typography, readme:font, readme:motion, readme:color",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
@@ -2649,10 +2649,10 @@
 			"starredAt": "2026-03-05T03:37:11Z",
 			"stargazersCount": 57446,
 			"license": "MIT",
-			"category": "devops",
-			"categoryTitle": "DevOps & Infra",
+			"category": "automation",
+			"categoryTitle": "Automation & Bots",
 			"classificationConfidence": 0.82,
-			"classificationReason": "readme:ci, readme:cd, readme:monitoring, readme:self-hosted, readme:deployment",
+			"classificationReason": "readme:bot, readme:playwright, readme:cron, readme:workflow, readme:monitor",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		}
