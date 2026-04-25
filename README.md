@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-24T07:11:55.330Z`
+Last updated: `2026-04-25T06:45:45.631Z`
 
 ## About This Project
 
@@ -19,9 +19,9 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **83**
-- Categories in use: **18**
-- Newly detected this run: **0**
+- Total starred repositories: **84**
+- Categories in use: **17**
+- Newly detected this run: **1**
 - Removed this run: **0**
 - Metadata/category updates: **3**
 
@@ -143,10 +143,11 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
     - [mksglu/context-mode](https://github.com/mksglu/context-mode) - Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms
     - [drona23/claude-token-efficient](https://github.com/drona23/claude-token-efficient) - One CLAUDE.md file. Keeps Claude responses terse. Reduces output verbosity on heavy workflows. Drop-in, no code changes.
     - [MrWalkerSir/homie-protocol](https://github.com/MrWalkerSir/homie-protocol) - An open reputation and identity protocol for AI agents
-    - [browser-use/browser-harness](https://github.com/browser-use/browser-harness) - Self-healing browser harness that enables LLMs to complete any task.
+    - [browser-use/browser-harness](https://github.com/browser-use/browser-harness) - Browser Harness | Self-healing harness that enables LLMs to complete any task.
     - [kesslerio/soulcraft-openclaw-skill](https://github.com/kesslerio/soulcraft-openclaw-skill) - SoulCraft: Create or improve SOUL.md files for OpenClaw agents through guided conversation
     - [onevcat/argue](https://github.com/onevcat/argue) - Harness-agnostic orchestration package for multi-agent consensus workflows
     - [yorak/airoundtable](https://github.com/yorak/airoundtable) - AI roundtable, where a set of AI agents gather to discuss a topic. Implemented as multi-agent system.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [Farama-Foundation/chatarena](https://github.com/Farama-Foundation/chatarena) - ChatArena (or Chat Arena) is a Multi-Agent Language Game Environments for LLMs. The goal is to develop communication and collaboration capabilities of AIs.
     - [safishamsi/graphify](https://github.com/safishamsi/graphify) - AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph
     - [bytedance/trae-agent](https://github.com/bytedance/trae-agent) - Trae Agent is an LLM-based agent for general purpose software engineering tasks.
-    - [mtytel/helm](https://github.com/mtytel/helm) - Helm - a free polyphonic synth with lots of modulation
