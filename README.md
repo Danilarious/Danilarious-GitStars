@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-28T07:41:07.580Z`
+Last updated: `2026-04-29T07:35:27.426Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **85**
+- Total starred repositories: **86**
 - Categories in use: **17**
 - Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **5**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [agent0ai/space-agent](https://github.com/agent0ai/space-agent) - The agent that re-shapes the Space
     - [EthanAlgoX/LLM-TradeBot](https://github.com/EthanAlgoX/LLM-TradeBot) - A multi-agent AI trading system using LLMs to optimize strategies and adapt to market conditions in real-time.
     - [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
     - [mksglu/context-mode](https://github.com/mksglu/context-mode) - Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [yorak/airoundtable](https://github.com/yorak/airoundtable) - AI roundtable, where a set of AI agents gather to discuss a topic. Implemented as multi-agent system.
     - [DA2I2-SLM/DAR](https://github.com/DA2I2-SLM/DAR) - Source code for the paper: Hear Both Sides: Efficient Multi-Agent Debate via Diversity-Aware Message Retention
     - [Farama-Foundation/chatarena](https://github.com/Farama-Foundation/chatarena) - ChatArena (or Chat Arena) is a Multi-Agent Language Game Environments for LLMs. The goal is to develop communication and collaboration capabilities of AIs.
-    - [safishamsi/graphify](https://github.com/safishamsi/graphify) - AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph
