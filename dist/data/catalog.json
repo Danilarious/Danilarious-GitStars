@@ -3,8 +3,8 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-04-29T07:35:27.426Z",
-	"total": 86,
+	"generatedAt": "2026-04-30T07:38:49.054Z",
+	"total": 87,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 1,
@@ -105,7 +105,7 @@
 			"title": "Libraries & SDKs",
 			"description": "Reusable packages, frameworks, SDKs, parsers, runtimes, and lower-level building blocks used across multiple products.",
 			"priority": 130,
-			"count": 3
+			"count": 4
 		},
 		{
 			"id": "cli",

@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-29T07:35:27.426Z`
+Last updated: `2026-04-30T07:38:49.054Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **86**
+- Total starred repositories: **87**
 - Categories in use: **17**
 - Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **1**
+- Metadata/category updates: **0**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [chenglou/pretext](https://github.com/chenglou/pretext) - Fast, accurate & comprehensive text measurement & layout
     - [agent0ai/space-agent](https://github.com/agent0ai/space-agent) - The agent that re-shapes the Space
     - [EthanAlgoX/LLM-TradeBot](https://github.com/EthanAlgoX/LLM-TradeBot) - A multi-agent AI trading system using LLMs to optimize strategies and adapt to market conditions in real-time.
     - [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [onevcat/argue](https://github.com/onevcat/argue) - Harness-agnostic orchestration package for multi-agent consensus workflows
     - [yorak/airoundtable](https://github.com/yorak/airoundtable) - AI roundtable, where a set of AI agents gather to discuss a topic. Implemented as multi-agent system.
     - [DA2I2-SLM/DAR](https://github.com/DA2I2-SLM/DAR) - Source code for the paper: Hear Both Sides: Efficient Multi-Agent Debate via Diversity-Aware Message Retention
-    - [Farama-Foundation/chatarena](https://github.com/Farama-Foundation/chatarena) - ChatArena (or Chat Arena) is a Multi-Agent Language Game Environments for LLMs. The goal is to develop communication and collaboration capabilities of AIs.
