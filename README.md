@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-04-30T07:38:49.054Z`
+Last updated: `2026-05-01T07:37:03.732Z`
 
 ## About This Project
 
@@ -19,7 +19,7 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **87**
+- Total starred repositories: **88**
 - Categories in use: **17**
 - Newly detected this run: **1**
 - Removed this run: **0**
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) - Agentic AI Infrastructure for magnifying HUMAN capabilities.
     - [chenglou/pretext](https://github.com/chenglou/pretext) - Fast, accurate & comprehensive text measurement & layout
     - [agent0ai/space-agent](https://github.com/agent0ai/space-agent) - The agent that re-shapes the Space
     - [EthanAlgoX/LLM-TradeBot](https://github.com/EthanAlgoX/LLM-TradeBot) - A multi-agent AI trading system using LLMs to optimize strategies and adapt to market conditions in real-time.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [kesslerio/soulcraft-openclaw-skill](https://github.com/kesslerio/soulcraft-openclaw-skill) - SoulCraft: Create or improve SOUL.md files for OpenClaw agents through guided conversation
     - [onevcat/argue](https://github.com/onevcat/argue) - Harness-agnostic orchestration package for multi-agent consensus workflows
     - [yorak/airoundtable](https://github.com/yorak/airoundtable) - AI roundtable, where a set of AI agents gather to discuss a topic. Implemented as multi-agent system.
-    - [DA2I2-SLM/DAR](https://github.com/DA2I2-SLM/DAR) - Source code for the paper: Hear Both Sides: Efficient Multi-Agent Debate via Diversity-Aware Message Retention
