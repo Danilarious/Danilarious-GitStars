@@ -3,8 +3,8 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-05-03T07:26:40.935Z",
-	"total": 89,
+	"generatedAt": "2026-05-04T08:03:15.242Z",
+	"total": 90,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 1,
@@ -105,7 +105,7 @@
 			"title": "Design & Themes",
 			"description": "Design assets, theme packs, iconography, typography, motion systems, and visual exploration or presentation tools.",
 			"priority": 120,
-			"count": 4
+			"count": 5
 		},
 		{
 			"id": "libraries",
