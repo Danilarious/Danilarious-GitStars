@@ -3,8 +3,8 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-05-05T07:27:18.369Z",
-	"total": 90,
+	"generatedAt": "2026-05-06T07:44:07.587Z",
+	"total": 93,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 1,
@@ -105,7 +105,7 @@
 			"title": "Design & Themes",
 			"description": "Design assets, theme packs, iconography, typography, motion systems, and visual exploration or presentation tools.",
 			"priority": 120,
-			"count": 5
+			"count": 6
 		},
 		{
 			"id": "libraries",
@@ -126,14 +126,14 @@
 			"title": "Learning & Reference",
 			"description": "Tutorials, example projects, awesome-lists, notes, roadmaps, boilerplates, and repositories intended primarily for learning or reference.",
 			"priority": 150,
-			"count": 11
+			"count": 12
 		},
 		{
 			"id": "misc",
 			"title": "Misc",
 			"description": "Everything that still does not fit the taxonomy cleanly after the more specific buckets have been applied.",
 			"priority": 999,
-			"count": 6
+			"count": 7
 		}
 	]
 }
