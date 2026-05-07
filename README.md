@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-05-06T07:44:07.587Z`
+Last updated: `2026-05-07T07:59:57.666Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **93**
+- Total starred repositories: **94**
 - Categories in use: **18**
-- Newly detected this run: **3**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **2**
+- Metadata/category updates: **0**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [payloadcms/payload](https://github.com/payloadcms/payload) - Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.
     - [MrPeker/awesome-illustrations](https://github.com/MrPeker/awesome-illustrations) - A curated list of awesome illustrations & tools ✨
     - [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) - Open source comprehensive 2D content creation tool suite for graphic design, digital art, and interactive real-time motion graphics — featuring node-based procedural editing
     - [cpreid2/blobSketch](https://github.com/cpreid2/blobSketch) - blobSketch is a WebGL-based canvas for creating physics-driven blobs, lines, and repulsion circles. Draw shapes, tweak physics, then export to SVG or high-res JPG.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [EthanAlgoX/LLM-TradeBot](https://github.com/EthanAlgoX/LLM-TradeBot) - A multi-agent AI trading system using LLMs to optimize strategies and adapt to market conditions in real-time.
     - [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
     - [mksglu/context-mode](https://github.com/mksglu/context-mode) - Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms
-    - [drona23/claude-token-efficient](https://github.com/drona23/claude-token-efficient) - One CLAUDE.md file. Keeps Claude responses terse. Reduces output verbosity on heavy workflows. Drop-in, no code changes.
