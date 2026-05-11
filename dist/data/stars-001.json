@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-05-10T07:34:29.559Z",
+	"generatedAt": "2026-05-11T08:35:48.076Z",
 	"chunkIndex": 1,
 	"chunkCount": 1,
 	"items": [
@@ -1079,10 +1079,10 @@
 			"starredAt": "2026-04-13T02:35:29Z",
 			"stargazersCount": 13513,
 			"license": "MIT",
-			"category": "learning",
-			"categoryTitle": "Learning & Reference",
-			"classificationConfidence": 0.85,
-			"classificationReason": "readme:recipes, readme:collection, readme:boilerplate, readme:reference, readme:format, readme:spec, readme:notes, readme:walkthrough",
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.98,
+			"classificationReason": "readme:ai-agents, readme:llm, readme:llms, readme:rag, readme:embedding, readme:embeddings, readme:evals, readme:vector search",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
