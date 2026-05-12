@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-05-11T08:35:48.076Z",
+	"generatedAt": "2026-05-12T08:04:27.238Z",
 	"chunkIndex": 1,
 	"chunkCount": 1,
 	"items": [
@@ -860,10 +860,10 @@
 			"starredAt": "2026-04-17T10:13:07Z",
 			"stargazersCount": 1774,
 			"license": "NOASSERTION",
-			"category": "media",
-			"categoryTitle": "Media & Creator Tools",
+			"category": "learning",
+			"categoryTitle": "Learning & Reference",
 			"classificationConfidence": 0.77,
-			"classificationReason": "readme:video, readme:camera, readme:image",
+			"classificationReason": "readme:learning, readme:reference, readme:format",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
