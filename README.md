@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-05-26T08:43:00.750Z`
+Last updated: `2026-05-27T08:48:46.239Z`
 
 ## About This Project
 
@@ -19,10 +19,10 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **95**
+- Total starred repositories: **96**
 - Categories in use: **18**
-- Newly detected this run: **0**
-- Removed this run: **0**
+- Newly detected this run: **2**
+- Removed this run: **1**
 - Metadata/category updates: **0**
 
 ## How It Works
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [yyfz/Warp-as-History](https://github.com/yyfz/Warp-as-History) - Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video
     - [TypeWhisper/typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac) - Local speech-to-text for macOS  on-device AI, fully private, optional cloud
     - [payloadcms/payload](https://github.com/payloadcms/payload) - Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.
     - [MrPeker/awesome-illustrations](https://github.com/MrPeker/awesome-illustrations) - A curated list of awesome illustrations & tools ✨
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [chenglou/pretext](https://github.com/chenglou/pretext) - Fast, accurate & comprehensive text measurement & layout
     - [agent0ai/space-agent](https://github.com/agent0ai/space-agent) - The agent that re-shapes the Space
     - [EthanAlgoX/LLM-TradeBot](https://github.com/EthanAlgoX/LLM-TradeBot) - A multi-agent AI trading system using LLMs to optimize strategies and adapt to market conditions in real-time.
-    - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.

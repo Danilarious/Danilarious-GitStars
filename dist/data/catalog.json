@@ -3,8 +3,8 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-05-26T08:43:00.750Z",
-	"total": 95,
+	"generatedAt": "2026-05-27T08:48:46.239Z",
+	"total": 96,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 1,
@@ -28,7 +28,7 @@
 			"title": "Frontend & UI",
 			"description": "User interfaces, component systems, static sites, dashboards, design-system implementations, and browser-first applications.",
 			"priority": 30,
-			"count": 4
+			"count": 5
 		},
 		{
 			"id": "content-cms",
