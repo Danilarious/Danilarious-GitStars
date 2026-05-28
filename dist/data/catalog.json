@@ -3,8 +3,8 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-05-27T08:48:46.239Z",
-	"total": 96,
+	"generatedAt": "2026-05-28T08:52:53.692Z",
+	"total": 97,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 1,
@@ -63,7 +63,7 @@
 			"title": "DevOps & Infra",
 			"description": "Containers, CI/CD, infrastructure-as-code, self-hosting, deployment pipelines, and observability or operations tooling.",
 			"priority": 60,
-			"count": 6
+			"count": 7
 		},
 		{
 			"id": "databases",
