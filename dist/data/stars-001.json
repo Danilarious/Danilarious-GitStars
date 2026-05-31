@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-05-30T07:54:47.049Z",
+	"generatedAt": "2026-05-31T08:22:07.120Z",
 	"chunkIndex": 1,
 	"chunkCount": 1,
 	"items": [
@@ -61,10 +61,10 @@
 			"starredAt": "2026-05-20T00:31:06Z",
 			"stargazersCount": 191,
 			"license": "Apache-2.0",
-			"category": "frontend",
-			"categoryTitle": "Frontend & UI",
+			"category": "cli",
+			"categoryTitle": "CLI & Terminal",
 			"classificationConfidence": 0.8,
-			"classificationReason": "readme:browser, readme:web, readme:ui, readme:website",
+			"classificationReason": "readme:cli, readme:bash, readme:command-line, readme:command line",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
