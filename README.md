@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-06-02T09:17:35.821Z`
+Last updated: `2026-06-03T10:04:53.067Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **97**
+- Total starred repositories: **98**
 - Categories in use: **18**
-- Newly detected this run: **0**
-- Removed this run: **0**
-- Metadata/category updates: **0**
+- Newly detected this run: **2**
+- Removed this run: **1**
+- Metadata/category updates: **2**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) - Your Personal AI super intelligence. Private, Simple and extremely powerful.
     - [cryptpad/cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source.
     - [yyfz/Warp-as-History](https://github.com/yyfz/Warp-as-History) - Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video
     - [TypeWhisper/typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac) - Local speech-to-text for macOS  on-device AI, fully private, optional cloud
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [rzru/nightingale](https://github.com/rzru/nightingale) - Machine learning powered Karaoke app (with scores!) 
     - [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) - Agentic AI Infrastructure for magnifying HUMAN capabilities.
     - [chenglou/pretext](https://github.com/chenglou/pretext) - Fast, accurate & comprehensive text measurement & layout
-    - [agent0ai/space-agent](https://github.com/agent0ai/space-agent) - The agent that re-shapes the Space
