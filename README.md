@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-06-05T08:52:08.690Z`
+Last updated: `2026-06-06T08:02:34.629Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **98**
+- Total starred repositories: **99**
 - Categories in use: **18**
-- Newly detected this run: **0**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [zilliztech/memsearch](https://github.com/zilliztech/memsearch) - A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex), backed by Markdown and Milvus.
     - [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) - Your Personal AI super intelligence. Private, Simple and extremely powerful.
     - [cryptpad/cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source.
     - [yyfz/Warp-as-History](https://github.com/yyfz/Warp-as-History) - Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) - A Python framework for AI-driven character animation using neural networks.
     - [rzru/nightingale](https://github.com/rzru/nightingale) - Machine learning powered Karaoke app (with scores!) 
     - [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) - Agentic AI Infrastructure for magnifying HUMAN capabilities.
-    - [chenglou/pretext](https://github.com/chenglou/pretext) - Fast, accurate & comprehensive text measurement & layout
