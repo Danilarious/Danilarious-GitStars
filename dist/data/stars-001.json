@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-06-08T09:55:21.153Z",
+	"generatedAt": "2026-06-09T08:41:02.569Z",
 	"chunkIndex": 1,
 	"chunkCount": 1,
 	"items": [
@@ -3041,8 +3041,8 @@
 			"license": "Apache-2.0",
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.98,
-			"classificationReason": "description:design, readme:design, readme:typography, readme:font, readme:brand, readme:motion, readme:color",
+			"classificationConfidence": 0.82,
+			"classificationReason": "description:design, readme:design, readme:font, readme:brand, readme:motion, readme:color",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
