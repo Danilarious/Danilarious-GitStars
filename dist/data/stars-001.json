@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-06-12T09:12:21.556Z",
+	"generatedAt": "2026-06-13T08:31:25.562Z",
 	"chunkIndex": 1,
 	"chunkCount": 1,
 	"items": [
@@ -3228,10 +3228,10 @@
 			"starredAt": "2026-03-05T03:37:11Z",
 			"stargazersCount": 69299,
 			"license": "MIT",
-			"category": "automation",
-			"categoryTitle": "Automation & Bots",
+			"category": "backend",
+			"categoryTitle": "Backend & APIs",
 			"classificationConfidence": 0.82,
-			"classificationReason": "readme:bot, readme:playwright, readme:cron, readme:workflow, readme:monitor",
+			"classificationReason": "readme:api, readme:grpc, readme:server, readme:queue, readme:webhook, readme:rest, readme:endpoint",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		}
