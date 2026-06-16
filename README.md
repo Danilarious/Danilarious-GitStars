@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-06-15T11:22:53.498Z`
+Last updated: `2026-06-16T10:20:42.551Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **99**
+- Total starred repositories: **100**
 - Categories in use: **18**
-- Newly detected this run: **0**
-- Removed this run: **0**
-- Metadata/category updates: **0**
+- Newly detected this run: **2**
+- Removed this run: **1**
+- Metadata/category updates: **4**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [AlexWortega/tracehouse-sdk](https://github.com/AlexWortega/tracehouse-sdk) - tracehouse Python SDK — wandb-style observability + training-run logging (metrics, images & videos) for Claude Code / Codex / any LLM agent. PyPI: tracehouse-sdk
     - [zilliztech/memsearch](https://github.com/zilliztech/memsearch) - A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex), backed by Markdown and Milvus.
     - [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) - Your Personal AI super intelligence. Private, Simple and extremely powerful.
     - [cryptpad/cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source.
@@ -153,5 +154,4 @@ git clone <your-fork-or-copy-url>
     - [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) - Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine
     - [cpreid2/blobSketch](https://github.com/cpreid2/blobSketch) - blobSketch is a WebGL-based canvas for creating physics-driven blobs, lines, and repulsion circles. Draw shapes, tweak physics, then export to SVG or high-res JPG.
     - [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) - A Python framework for AI-driven character animation using neural networks.
-    - [rzru/nightingale](https://github.com/rzru/nightingale) - Machine learning powered Karaoke app (with scores!) 
-    - [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) - Agentic AI Infrastructure for magnifying HUMAN capabilities.
+    - [rzru/nightingale](https://github.com/rzru/nightingale) - Machine learning powered Karaoke app (with scores!)
