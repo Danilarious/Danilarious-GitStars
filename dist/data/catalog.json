@@ -3,11 +3,11 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-06-17T10:03:51.856Z",
-	"total": 100,
+	"generatedAt": "2026-06-18T09:45:19.385Z",
+	"total": 101,
 	"recentCount": 12,
 	"chunkSize": 100,
-	"chunkCount": 1,
+	"chunkCount": 2,
 	"categories": [
 		{
 			"id": "ai",
@@ -77,7 +77,7 @@
 			"title": "Data & Analytics",
 			"description": "Databases, ETL, analytics stacks, warehouses, notebooks, metrics pipelines, and tools for structured data work.",
 			"priority": 70,
-			"count": 1
+			"count": 2
 		},
 		{
 			"id": "mobile",

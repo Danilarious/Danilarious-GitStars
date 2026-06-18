@@ -1,0 +1,36 @@
+{
+	"version": 1,
+	"username": "Danilarious",
+	"generatedAt": "2026-06-18T09:45:19.385Z",
+	"chunkIndex": 2,
+	"chunkCount": 2,
+	"items": [
+		{
+			"id": 1170821064,
+			"fullName": "paperclipai/paperclip",
+			"name": "paperclip",
+			"owner": "paperclipai",
+			"ownerType": "Organization",
+			"url": "https://github.com/paperclipai/paperclip",
+			"description": "The open-source app everyone uses to manage agents at work",
+			"homepage": "https://paperclip.ing",
+			"language": "TypeScript",
+			"topics": [],
+			"archived": false,
+			"disabled": false,
+			"fork": false,
+			"createdAt": "2026-03-02T15:01:51Z",
+			"updatedAt": "2026-06-18T09:44:55Z",
+			"pushedAt": "2026-06-18T08:32:23Z",
+			"starredAt": "2026-03-05T03:37:11Z",
+			"stargazersCount": 70836,
+			"license": "MIT",
+			"category": "backend",
+			"categoryTitle": "Backend & APIs",
+			"classificationConfidence": 0.82,
+			"classificationReason": "readme:api, readme:grpc, readme:server, readme:queue, readme:webhook, readme:rest, readme:endpoint",
+			"classificationSource": "rules",
+			"classificationReadmeUsed": true
+		}
+	]
+}

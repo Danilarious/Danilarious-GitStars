@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-06-17T10:03:51.856Z`
+Last updated: `2026-06-18T09:45:19.385Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **100**
+- Total starred repositories: **101**
 - Categories in use: **18**
-- Newly detected this run: **0**
+- Newly detected this run: **1**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) - An Open Source implementation of Notebook LM with more flexibility and features
     - [AlexWortega/tracehouse-sdk](https://github.com/AlexWortega/tracehouse-sdk) - tracehouse Python SDK — wandb-style observability + training-run logging (metrics, images & videos) for Claude Code / Codex / any LLM agent. PyPI: tracehouse-sdk
     - [zilliztech/memsearch](https://github.com/zilliztech/memsearch) - A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex), backed by Markdown and Milvus.
     - [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) - Your Personal AI super intelligence. Private, Simple and extremely powerful.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) - Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine
     - [cpreid2/blobSketch](https://github.com/cpreid2/blobSketch) - blobSketch is a WebGL-based canvas for creating physics-driven blobs, lines, and repulsion circles. Draw shapes, tweak physics, then export to SVG or high-res JPG.
     - [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) - A Python framework for AI-driven character animation using neural networks.
-    - [rzru/nightingale](https://github.com/rzru/nightingale) - Machine learning powered Karaoke app (with scores!)
