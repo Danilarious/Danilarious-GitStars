@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-06-25T08:30:48.220Z`
+Last updated: `2026-06-26T08:34:59.447Z`
 
 ## About This Project
 
