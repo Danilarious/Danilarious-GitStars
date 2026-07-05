@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-07-04T08:04:50.772Z",
+	"generatedAt": "2026-07-05T08:16:56.311Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -134,10 +134,10 @@
 			"starredAt": "2026-06-02T16:11:03Z",
 			"stargazersCount": 32579,
 			"license": "GPL-3.0",
-			"category": "libraries",
-			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.98,
-			"classificationReason": "readme:package, readme:runtime, readme:package-manager, readme:package manager, language:rust",
+			"category": "automation",
+			"categoryTitle": "Automation & Bots",
+			"classificationConfidence": 0.84,
+			"classificationReason": "readme:automation, readme:scraper, readme:n8n, readme:zapier, readme:workflow",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
