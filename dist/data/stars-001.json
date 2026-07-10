@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-07-09T08:44:31.631Z",
+	"generatedAt": "2026-07-10T08:40:16.797Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -1986,7 +1986,7 @@
 			"license": "MIT",
 			"category": "media",
 			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.98,
+			"classificationConfidence": 0.83,
 			"classificationReason": "readme:pdf, readme:video, readme:audio, readme:music, readme:transcription, readme:speech-to-text, readme:photography, readme:image",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
