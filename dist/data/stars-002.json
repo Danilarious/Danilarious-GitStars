@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-07-31T08:08:57.353Z",
+	"generatedAt": "2026-08-01T07:37:31.648Z",
 	"chunkIndex": 2,
 	"chunkCount": 2,
 	"items": [
@@ -27,7 +27,7 @@
 			"license": "MIT",
 			"category": "devops",
 			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.98,
+			"classificationConfidence": 0.91,
 			"classificationReason": "readme:kubernetes, readme:ci, readme:cd, readme:observability, readme:monitoring, readme:self-hosted, readme:deployment, readme:infrastructure",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
