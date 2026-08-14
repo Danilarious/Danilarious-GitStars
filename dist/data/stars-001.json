@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-08-13T06:44:24.724Z",
+	"generatedAt": "2026-08-14T06:41:37.406Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -880,10 +880,10 @@
 			"starredAt": "2026-04-20T20:48:09Z",
 			"stargazersCount": 18,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.98,
-			"classificationReason": "topic:llm, readme:llm, readme:llms, readme:transformers, readme:evaluation",
+			"category": "data",
+			"categoryTitle": "Data & Analytics",
+			"classificationConfidence": 0.77,
+			"classificationReason": "readme:data, readme:pipeline, readme:metrics",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
