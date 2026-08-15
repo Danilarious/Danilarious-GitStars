@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-08-14T06:41:37.406Z",
+	"generatedAt": "2026-08-15T05:40:42.374Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -3148,10 +3148,10 @@
 			"starredAt": "2026-03-20T00:12:27Z",
 			"stargazersCount": 2490,
 			"license": "MIT",
-			"category": "ai",
-			"categoryTitle": "AI & Agents",
-			"classificationConfidence": 0.8,
-			"classificationReason": "readme:llm, readme:embedding, readme:embeddings, readme:ollama",
+			"category": "media",
+			"categoryTitle": "Media & Creator Tools",
+			"classificationConfidence": 0.81,
+			"classificationReason": "readme:video, readme:audio, readme:transcription, readme:image",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
