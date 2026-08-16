@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-08-15T05:40:42.374Z",
+	"generatedAt": "2026-08-16T05:42:37.657Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -1351,7 +1351,7 @@
 			"category": "ai",
 			"categoryTitle": "AI & Agents",
 			"classificationConfidence": 0.98,
-			"classificationReason": "readme:ai-agents, readme:llm, readme:llms, readme:rag, readme:embedding, readme:evals, readme:vector search, readme:semantic-search",
+			"classificationReason": "readme:ai-agents, readme:llm, readme:llms, readme:rag, readme:embedding, readme:embeddings, readme:evals, readme:vector search",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
