@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-09-01T10:06:05.436Z",
+	"generatedAt": "2026-09-02T09:37:30.342Z",
 	"chunkIndex": 2,
 	"chunkCount": 2,
 	"items": [
@@ -25,10 +25,10 @@
 			"starredAt": "2026-03-05T03:37:11Z",
 			"stargazersCount": 74149,
 			"license": "MIT",
-			"category": "devops",
-			"categoryTitle": "DevOps & Infra",
-			"classificationConfidence": 0.91,
-			"classificationReason": "readme:kubernetes, readme:ci, readme:cd, readme:observability, readme:monitoring, readme:self-hosted, readme:deployment, readme:infrastructure",
+			"category": "backend",
+			"categoryTitle": "Backend & APIs",
+			"classificationConfidence": 0.82,
+			"classificationReason": "readme:backend, readme:api, readme:grpc, readme:server, readme:queue, readme:webhook, readme:rest, readme:service",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		}
