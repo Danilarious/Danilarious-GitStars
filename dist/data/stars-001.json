@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-09-08T09:41:00.317Z",
+	"generatedAt": "2026-09-09T09:45:35.408Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -1995,10 +1995,10 @@
 			"starredAt": "2026-04-01T22:42:28Z",
 			"stargazersCount": 133292,
 			"license": "MIT",
-			"category": "media",
-			"categoryTitle": "Media & Creator Tools",
-			"classificationConfidence": 0.83,
-			"classificationReason": "readme:pdf, readme:video, readme:audio, readme:music, readme:transcription, readme:speech-to-text, readme:photography, readme:image",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.84,
+			"classificationReason": "description:frontend, readme:frontend, readme:react, readme:vue, readme:angular, readme:html, readme:css, readme:browser",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
