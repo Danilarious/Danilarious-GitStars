@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-09-13T10:17:30.944Z`
+Last updated: `2026-09-14T10:38:47.878Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **101**
+- Total starred repositories: **116**
 - Categories in use: **18**
-- Newly detected this run: **0**
-- Removed this run: **0**
-- Metadata/category updates: **1**
+- Newly detected this run: **16**
+- Removed this run: **1**
+- Metadata/category updates: **16**
 
 ## How It Works
 
@@ -143,15 +143,15 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
-    - [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) - An Open Source implementation of Notebook LM with more flexibility and features
-    - [AlexWortega/tracehouse-sdk](https://github.com/AlexWortega/tracehouse-sdk) - tracehouse Python SDK — wandb-style observability + training-run logging (metrics, images & videos) for Claude Code / Codex / any LLM agent. PyPI: tracehouse-sdk
-    - [zilliztech/memsearch](https://github.com/zilliztech/memsearch) - A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex), backed by Markdown and Milvus.
-    - [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) - Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.
-    - [cryptpad/cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source.
-    - [yyfz/Warp-as-History](https://github.com/yyfz/Warp-as-History) - Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video
-    - [TypeWhisper/typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac) - Local speech-to-text for macOS  on-device AI, fully private, optional cloud
-    - [payloadcms/payload](https://github.com/payloadcms/payload) - Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.
-    - [MrPeker/awesome-illustrations](https://github.com/MrPeker/awesome-illustrations) - A curated list of awesome illustrations & tools ✨
-    - [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) - Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine
-    - [cpreid2/blobSketch](https://github.com/cpreid2/blobSketch) - blobSketch is a WebGL-based canvas for creating physics-driven blobs, lines, and repulsion circles. Draw shapes, tweak physics, then export to SVG or high-res JPG.
-    - [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) - A Python framework for AI-driven character animation using neural networks.
+    - [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
+    - [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents.
+    - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) - 🙌 OpenHands: AI-Driven Development
+    - [dcouple/Pane](https://github.com/dcouple/Pane) - Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.
+    - [hewigovens/amux](https://github.com/hewigovens/amux)
+    - [herdrdev/herdr](https://github.com/herdrdev/herdr) - the runtime your coding agents live on
+    - [TransformerOptimus/SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - <⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.
+    - [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) - ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration
+    - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) - 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
+    - [mksglu/hatice](https://github.com/mksglu/hatice) - Hatice is an autonomous coding agent orchestration system.
+    - [camel-ai/camel](https://github.com/camel-ai/camel) - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org
+    - [666ghj/MiroFish](https://github.com/666ghj/MiroFish) - A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
