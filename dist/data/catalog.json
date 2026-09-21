@@ -3,7 +3,7 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-09-20T09:48:42.565Z",
+	"generatedAt": "2026-09-21T10:43:56.112Z",
 	"total": 116,
 	"recentCount": 12,
 	"chunkSize": 100,
@@ -49,7 +49,7 @@
 			"title": "Desktop Apps",
 			"description": "Electron, Tauri, native desktop apps, tray utilities, and cross-platform desktop-first experiences.",
 			"priority": 50,
-			"count": 4
+			"count": 3
 		},
 		{
 			"id": "media",
@@ -63,7 +63,7 @@
 			"title": "DevOps & Infra",
 			"description": "Containers, CI/CD, infrastructure-as-code, self-hosting, deployment pipelines, and observability or operations tooling.",
 			"priority": 60,
-			"count": 8
+			"count": 9
 		},
 		{
 			"id": "data",
