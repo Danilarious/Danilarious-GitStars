@@ -3,8 +3,8 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-09-26T09:52:13.270Z",
-	"total": 116,
+	"generatedAt": "2026-09-27T10:33:16.298Z",
+	"total": 120,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 2,
@@ -56,7 +56,7 @@
 			"title": "Media & Creator Tools",
 			"description": "PDF, audio, video, image, OCR, downloader, and creator-focused utilities for producing, transforming, or consuming media.",
 			"priority": 55,
-			"count": 5
+			"count": 6
 		},
 		{
 			"id": "devops",
@@ -105,21 +105,21 @@
 			"title": "Design & Themes",
 			"description": "Design assets, theme packs, iconography, typography, motion systems, and visual exploration or presentation tools.",
 			"priority": 120,
-			"count": 6
+			"count": 7
 		},
 		{
 			"id": "libraries",
 			"title": "Libraries & SDKs",
 			"description": "Reusable packages, frameworks, SDKs, parsers, runtimes, and lower-level building blocks used across multiple products.",
 			"priority": 130,
-			"count": 5
+			"count": 6
 		},
 		{
 			"id": "cli",
 			"title": "CLI & Terminal",
 			"description": "Shell tools, terminal utilities, command-line workflows, text UIs, and scripts meant to be driven primarily from a console.",
 			"priority": 140,
-			"count": 10
+			"count": 11
 		},
 		{
 			"id": "learning",

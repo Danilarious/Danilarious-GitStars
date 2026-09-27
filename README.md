@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-09-26T09:52:13.270Z`
+Last updated: `2026-09-27T10:33:16.298Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **116**
+- Total starred repositories: **120**
 - Categories in use: **18**
-- Newly detected this run: **0**
-- Removed this run: **0**
-- Metadata/category updates: **0**
+- Newly detected this run: **5**
+- Removed this run: **1**
+- Metadata/category updates: **6**
 
 ## How It Works
 
@@ -143,15 +143,15 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) - A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.
+    - [inclusionAI/Ming-Image](https://github.com/inclusionAI/Ming-Image)
+    - [SwayamInSync/MIRA](https://github.com/SwayamInSync/MIRA) - MIRA - Multimodal Image Reconstruction with Attention is a transformer (Encoder-Decoder) based architecture for Text / Image to 3D reconstruction
+    - [TencentARC/WorldCrafter](https://github.com/TencentARC/WorldCrafter) - [Arxiv 2026] WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory
     - [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
     - [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents.
     - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) - 🙌 OpenHands: AI-Driven Development
-    - [dcouple/Pane](https://github.com/dcouple/Pane) - Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.
+    - [greenfield-inc/Pane](https://github.com/greenfield-inc/Pane) - Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.
     - [hewigovens/amux](https://github.com/hewigovens/amux)
     - [herdrdev/herdr](https://github.com/herdrdev/herdr) - the runtime your coding agents live on
     - [TransformerOptimus/SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - <⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.
     - [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) - ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration
-    - [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) - 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
-    - [mksglu/hatice](https://github.com/mksglu/hatice) - Hatice is an autonomous coding agent orchestration system.
-    - [camel-ai/camel](https://github.com/camel-ai/camel) - 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org
-    - [666ghj/MiroFish](https://github.com/666ghj/MiroFish) - A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
