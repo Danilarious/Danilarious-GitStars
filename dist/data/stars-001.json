@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-09-27T10:33:16.298Z",
+	"generatedAt": "2026-09-28T11:41:25.960Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -54,8 +54,8 @@
 			"license": "MIT",
 			"category": "design",
 			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.82,
-			"classificationReason": "readme:design, readme:figma, readme:typography, readme:illustration, readme:color",
+			"classificationConfidence": 0.98,
+			"classificationReason": "readme:design, readme:figma, readme:icons, readme:typography, readme:illustration, readme:color",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
