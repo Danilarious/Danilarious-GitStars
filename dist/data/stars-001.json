@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-09-28T11:41:25.960Z",
+	"generatedAt": "2026-09-29T11:22:09.588Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -1179,10 +1179,10 @@
 			"starredAt": "2026-04-29T19:54:58Z",
 			"stargazersCount": 50608,
 			"license": "MIT",
-			"category": "media",
-			"categoryTitle": "Media & Creator Tools",
+			"category": "libraries",
+			"categoryTitle": "Libraries & SDKs",
 			"classificationConfidence": 0.77,
-			"classificationReason": "readme:pdf, readme:image, readme:streaming",
+			"classificationReason": "readme:library, readme:package, readme:runtime",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
