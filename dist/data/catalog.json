@@ -3,8 +3,8 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-09-29T11:22:09.588Z",
-	"total": 120,
+	"generatedAt": "2026-09-30T11:10:02.984Z",
+	"total": 122,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 2,
@@ -21,7 +21,7 @@
 			"title": "Developer Tools",
 			"description": "Editors, IDE extensions, language servers, linters, generators, and tools that improve day-to-day software development.",
 			"priority": 20,
-			"count": 7
+			"count": 8
 		},
 		{
 			"id": "frontend",
@@ -42,7 +42,7 @@
 			"title": "Backend & APIs",
 			"description": "Servers, APIs, service layers, webhooks, auth-capable backends, and infrastructure that primarily exposes application functionality.",
 			"priority": 40,
-			"count": 8
+			"count": 9
 		},
 		{
 			"id": "desktop",
