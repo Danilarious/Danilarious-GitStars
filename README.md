@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-10-10T11:10:52.141Z`
+Last updated: `2026-10-11T11:24:18.767Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **122**
+- Total starred repositories: **123**
 - Categories in use: **18**
-- Newly detected this run: **0**
-- Removed this run: **0**
-- Metadata/category updates: **0**
+- Newly detected this run: **2**
+- Removed this run: **1**
+- Metadata/category updates: **4**
 
 ## How It Works
 
@@ -143,7 +143,8 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
-    - [inclusionAI/Avernet](https://github.com/inclusionAI/Avernet) - Distributed agent coordination platform where agents live, connect, coordinate, execute, and evolve together.
+    - [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
+    - [inclusionAI/Avernet](https://github.com/inclusionAI/Avernet) - Distributed agent coordination platform where agents live, connect, coordinate, execute, and evolve together — like an organization.
     - [inclusionAI/Choruz](https://github.com/inclusionAI/Choruz)
     - [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) - A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.
     - [inclusionAI/Ming-Image](https://github.com/inclusionAI/Ming-Image)
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) - 🙌 OpenHands: AI-Driven Development
     - [greenfield-inc/Pane](https://github.com/greenfield-inc/Pane) - Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.
     - [hewigovens/amux](https://github.com/hewigovens/amux)
-    - [herdrdev/herdr](https://github.com/herdrdev/herdr) - the runtime your coding agents live on
