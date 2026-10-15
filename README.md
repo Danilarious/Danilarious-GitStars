@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-10-14T10:12:41.507Z`
+Last updated: `2026-10-15T09:54:19.867Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **123**
+- Total starred repositories: **125**
 - Categories in use: **18**
-- Newly detected this run: **0**
-- Removed this run: **0**
-- Metadata/category updates: **0**
+- Newly detected this run: **3**
+- Removed this run: **1**
+- Metadata/category updates: **4**
 
 ## How It Works
 
@@ -143,6 +143,8 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [tc3oliver/ai-reality-town](https://github.com/tc3oliver/ai-reality-town) - A persistent AI social simulation and interactive reality-show world built on AI Town.
+    - [a16z-infra/ai-town](https://github.com/a16z-infra/ai-town) - A MIT-licensed, deployable starter kit for building and customizing your own version of AI town - a virtual town where AI characters live, chat and socialize.
     - [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
     - [inclusionAI/Avernet](https://github.com/inclusionAI/Avernet) - Distributed agent coordination platform where agents live, connect, coordinate, execute, and evolve together — like an organization.
     - [inclusionAI/Choruz](https://github.com/inclusionAI/Choruz)
@@ -153,5 +155,3 @@ git clone <your-fork-or-copy-url>
     - [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
     - [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents.
     - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) - 🙌 OpenHands: AI-Driven Development
-    - [greenfield-inc/Pane](https://github.com/greenfield-inc/Pane) - Terminal-first, open-source AI agent manager for any CLI agent (agent agnostic), any OS (mac, windows, linux). The Open-Source Agentic Development Environment for running multiple coding agents in parallel. Run locally or self-host Remote Pane to manage agents from desktop or phone. Simplify multi-agent orchestration with the runpane CLI.
-    - [hewigovens/amux](https://github.com/hewigovens/amux)
