@@ -3,8 +3,8 @@
 	"title": "Danilarious Star Atlas",
 	"description": "A generated catalog of starred GitHub repositories, grouped into stable categories.",
 	"username": "Danilarious",
-	"generatedAt": "2026-10-17T09:20:56.098Z",
-	"total": 125,
+	"generatedAt": "2026-10-18T09:37:55.270Z",
+	"total": 126,
 	"recentCount": 12,
 	"chunkSize": 100,
 	"chunkCount": 2,
@@ -42,7 +42,7 @@
 			"title": "Backend & APIs",
 			"description": "Servers, APIs, service layers, webhooks, auth-capable backends, and infrastructure that primarily exposes application functionality.",
 			"priority": 40,
-			"count": 8
+			"count": 9
 		},
 		{
 			"id": "desktop",
