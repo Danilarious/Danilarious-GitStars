@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-10-21T10:08:09.129Z",
+	"generatedAt": "2026-10-22T10:10:31.938Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -308,8 +308,8 @@
 			"license": "NOASSERTION",
 			"category": "libraries",
 			"categoryTitle": "Libraries & SDKs",
-			"classificationConfidence": 0.77,
-			"classificationReason": "readme:package, readme:package-manager, readme:package manager",
+			"classificationConfidence": 0.8,
+			"classificationReason": "readme:package, readme:runtime, readme:package-manager, readme:package manager",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
