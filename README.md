@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-10-24T09:32:03.656Z`
+Last updated: `2026-10-25T09:48:35.388Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **126**
+- Total starred repositories: **144**
 - Categories in use: **18**
-- Newly detected this run: **0**
+- Newly detected this run: **18**
 - Removed this run: **0**
-- Metadata/category updates: **0**
+- Metadata/category updates: **2**
 
 ## How It Works
 
@@ -143,15 +143,15 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
-    - [OpenMinis/iCTRL](https://github.com/OpenMinis/iCTRL) - An AI-friendly iOS/iPadOS automation testing tool built on XCUITest, but more than a testing tool: agents like Codex, Claude Code, Hermes, OpenClaw and Minis can operate your iPhone or iPad wirelessly through an encrypted JSON-RPC 2.0 API (tap, type, read the screen, launch apps, and more).
-    - [tc3oliver/ai-reality-town](https://github.com/tc3oliver/ai-reality-town) - A persistent AI social simulation and interactive reality-show world built on AI Town.
-    - [a16z-infra/ai-town](https://github.com/a16z-infra/ai-town) - A MIT-licensed, deployable starter kit for building and customizing your own version of AI town - a virtual town where AI characters live, chat and socialize.
-    - [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
-    - [inclusionAI/Avernet](https://github.com/inclusionAI/Avernet) - Distributed agent coordination platform where agents live, connect, coordinate, execute, and evolve together — like an organization.
-    - [inclusionAI/Choruz](https://github.com/inclusionAI/Choruz)
-    - [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) - A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.
-    - [inclusionAI/Ming-Image](https://github.com/inclusionAI/Ming-Image)
-    - [SwayamInSync/MIRA](https://github.com/SwayamInSync/MIRA) - MIRA - Multimodal Image Reconstruction with Attention is a transformer (Encoder-Decoder) based architecture for Text / Image to 3D reconstruction
-    - [TencentARC/WorldCrafter](https://github.com/TencentARC/WorldCrafter) - [Arxiv 2026] WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory
-    - [zellij-org/zellij](https://github.com/zellij-org/zellij) - A terminal workspace with batteries included
-    - [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents.
+    - [bisq-network/bisq](https://github.com/bisq-network/bisq) - A decentralized bitcoin exchange network
+    - [polakowo/vectorbt](https://github.com/polakowo/vectorbt) - The research engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one.
+    - [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) - Free, open-source crypto trading bot, automated bitcoin / cryptocurrency trading software, algorithmic trading bots. Visually design your crypto trading bot, leveraging an integrated charting system, data-mining, backtesting, paper trading, and multi-server crypto bot deployments.
+    - [zodiaceco/zodiac-modifier-roles](https://github.com/zodiaceco/zodiac-modifier-roles) - Smart account toolkit for role-based access control
+    - [rotki/rotki](https://github.com/rotki/rotki) - A portfolio tracking, analytics, accounting and management application that protects your privacy
+    - [chainflip-io/chainflip-sdk-monorepo](https://github.com/chainflip-io/chainflip-sdk-monorepo)
+    - [meltvar/QuantConnect-Dashboard](https://github.com/meltvar/QuantConnect-Dashboard) - Strategy dashboard
+    - [hamzajapan/Sovereign-Citadel-Terminal](https://github.com/hamzajapan/Sovereign-Citadel-Terminal) - Sovereign-Citadel-Terminal: A Bitcoin-native financial operating system. Secure, non-custodial trading via Discreet Log Contracts (DLCs), managed by autonomous AI risk agents. Built with Rust and Tauri v2.
+    - [LLMQuant/data-mcp](https://github.com/LLMQuant/data-mcp) - The knowledge harness for AI‑native finance — MCP server for LLMQuant Data.
+    - [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) - 🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.
+    - [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) - Curated list of LLM-driven trading agents, MCP servers, and agent skills for market research, strategy, and execution.
+    - [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) - Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents
