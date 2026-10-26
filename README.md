@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-10-25T09:48:35.388Z`
+Last updated: `2026-10-26T11:06:55.296Z`
 
 ## About This Project
 
@@ -21,9 +21,9 @@ The project is useful if you want to:
 
 - Total starred repositories: **144**
 - Categories in use: **18**
-- Newly detected this run: **18**
+- Newly detected this run: **0**
 - Removed this run: **0**
-- Metadata/category updates: **2**
+- Metadata/category updates: **0**
 
 ## How It Works
 
