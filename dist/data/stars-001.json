@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-10-27T10:33:58.045Z",
+	"generatedAt": "2026-10-28T11:19:56.269Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -418,10 +418,10 @@
 			"starredAt": "2026-10-24T22:26:17Z",
 			"stargazersCount": 4235,
 			"license": null,
-			"category": "cli",
-			"categoryTitle": "CLI & Terminal",
-			"classificationConfidence": 0.9,
-			"classificationReason": "readme:command-line, readme:command line, readme:console",
+			"category": "ai",
+			"categoryTitle": "AI & Agents",
+			"classificationConfidence": 0.98,
+			"classificationReason": "readme:llm, readme:transformers, readme:fine-tuning, readme:fine tuning, readme:ollama",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
