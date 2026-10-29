@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-10-28T11:19:56.269Z",
+	"generatedAt": "2026-10-29T11:30:42.365Z",
 	"chunkIndex": 2,
 	"chunkCount": 2,
 	"items": [
@@ -1260,7 +1260,7 @@
 			"category": "design",
 			"categoryTitle": "Design & Themes",
 			"classificationConfidence": 0.82,
-			"classificationReason": "description:design, readme:design, readme:font, readme:brand, readme:motion, readme:color",
+			"classificationReason": "description:design, readme:design, readme:font, readme:brand, readme:mockup, readme:illustrations, readme:color",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
