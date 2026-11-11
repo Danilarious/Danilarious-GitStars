@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-11-10T13:27:57.190Z",
+	"generatedAt": "2026-11-11T12:42:58.930Z",
 	"chunkIndex": 2,
 	"chunkCount": 2,
 	"items": [
@@ -1257,10 +1257,10 @@
 			"starredAt": "2026-03-21T04:33:32Z",
 			"stargazersCount": 86803,
 			"license": "Apache-2.0",
-			"category": "design",
-			"categoryTitle": "Design & Themes",
-			"classificationConfidence": 0.82,
-			"classificationReason": "description:design, readme:design, readme:font, readme:brand, readme:mockup, readme:illustrations, readme:color",
+			"category": "frontend",
+			"categoryTitle": "Frontend & UI",
+			"classificationConfidence": 0.98,
+			"classificationReason": "readme:frontend, readme:react, readme:nuxt, readme:svelte, readme:astro, readme:html, readme:css, readme:responsive",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
