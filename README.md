@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-11-16T13:38:45.954Z`
+Last updated: `2026-11-17T14:23:48.619Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **144**
+- Total starred repositories: **145**
 - Categories in use: **18**
-- Newly detected this run: **0**
-- Removed this run: **0**
-- Metadata/category updates: **1**
+- Newly detected this run: **3**
+- Removed this run: **2**
+- Metadata/category updates: **13**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [spotify/basic-pitch](https://github.com/spotify/basic-pitch) - A lightweight yet powerful audio-to-MIDI converter with pitch bend detection
     - [bisq-network/bisq](https://github.com/bisq-network/bisq) - A decentralized bitcoin exchange network
     - [polakowo/vectorbt](https://github.com/polakowo/vectorbt) - The research engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one.
     - [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos) - Free, open-source crypto trading bot, automated bitcoin / cryptocurrency trading software, algorithmic trading bots. Visually design your crypto trading bot, leveraging an integrated charting system, data-mining, backtesting, paper trading, and multi-server crypto bot deployments.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [LLMQuant/data-mcp](https://github.com/LLMQuant/data-mcp) - The knowledge harness for AI‑native finance — MCP server for LLMQuant Data.
     - [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) - 🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.
     - [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) - Curated list of LLM-driven trading agents, MCP servers, and agent skills for market research, strategy, and execution.
-    - [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) - Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents
