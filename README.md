@@ -2,7 +2,7 @@
 
 A generated catalog of starred GitHub repositories, grouped into stable categories.
 
-Last updated: `2026-11-19T14:25:36.714Z`
+Last updated: `2026-11-20T14:00:16.469Z`
 
 ## About This Project
 
@@ -19,11 +19,11 @@ The project is useful if you want to:
 
 ## Overview
 
-- Total starred repositories: **145**
+- Total starred repositories: **146**
 - Categories in use: **18**
-- Newly detected this run: **0**
-- Removed this run: **0**
-- Metadata/category updates: **0**
+- Newly detected this run: **2**
+- Removed this run: **1**
+- Metadata/category updates: **1**
 
 ## How It Works
 
@@ -143,6 +143,7 @@ git clone <your-fork-or-copy-url>
 
     ## Recent Stars
 
+    - [alexanderwanyoike/vibez](https://github.com/alexanderwanyoike/vibez) - An open-source DAW for electronic music, written in pure Rust
     - [spotify/basic-pitch](https://github.com/spotify/basic-pitch) - A lightweight yet powerful audio-to-MIDI converter with pitch bend detection
     - [bisq-network/bisq](https://github.com/bisq-network/bisq) - A decentralized bitcoin exchange network
     - [polakowo/vectorbt](https://github.com/polakowo/vectorbt) - The research engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one.
@@ -154,4 +155,3 @@ git clone <your-fork-or-copy-url>
     - [hamzajapan/Sovereign-Citadel-Terminal](https://github.com/hamzajapan/Sovereign-Citadel-Terminal) - Sovereign-Citadel-Terminal: A Bitcoin-native financial operating system. Secure, non-custodial trading via Discreet Log Contracts (DLCs), managed by autonomous AI risk agents. Built with Rust and Tauri v2.
     - [LLMQuant/data-mcp](https://github.com/LLMQuant/data-mcp) - The knowledge harness for AI‑native finance — MCP server for LLMQuant Data.
     - [georgezouq/awesome-ai-in-finance](https://github.com/georgezouq/awesome-ai-in-finance) - 🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.
-    - [LLMQuant/awesome-trading-agents](https://github.com/LLMQuant/awesome-trading-agents) - Curated list of LLM-driven trading agents, MCP servers, and agent skills for market research, strategy, and execution.
