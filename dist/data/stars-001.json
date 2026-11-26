@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"username": "Danilarious",
-	"generatedAt": "2026-11-25T15:35:31.811Z",
+	"generatedAt": "2026-11-26T15:15:31.519Z",
 	"chunkIndex": 1,
 	"chunkCount": 2,
 	"items": [
@@ -90,11 +90,11 @@
 			"starredAt": "2026-10-25T01:14:37Z",
 			"stargazersCount": 5151,
 			"license": "AGPL-3.0",
-			"category": "misc",
-			"categoryTitle": "Misc",
-			"classificationConfidence": 0.2,
-			"classificationReason": "Top score 2.75 stayed below the minimum category threshold.",
-			"classificationSource": "default",
+			"category": "security",
+			"categoryTitle": "Security & Privacy",
+			"classificationConfidence": 0.83,
+			"classificationReason": "readme:security, readme:vulnerability",
+			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
 		{
@@ -968,7 +968,7 @@
 			"category": "design",
 			"categoryTitle": "Design & Themes",
 			"classificationConfidence": 0.98,
-			"classificationReason": "readme:design, readme:figma, readme:icons, readme:typography, readme:illustration, readme:color",
+			"classificationReason": "readme:design, readme:figma, readme:icons, readme:typography, readme:illustration, readme:color, readme:animation",
 			"classificationSource": "rules",
 			"classificationReadmeUsed": true
 		},
